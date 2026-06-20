@@ -1,100 +1,45 @@
-# BigQuery Release Notes Visualizer
+# BigQuery Release Hub
 
-A modern, responsive single-page web application to browse, filter, and search Google Cloud BigQuery release notes. It fetches the official Atom XML feed, parses it on the backend, categorizes updates, and presents them in an elegant, interactive dashboard.
-
----
-
-## 🚀 Features
-
-- **Segmented Categories**: Instead of viewing monolithic blocks of text, updates are split by their headers (e.g., *Features*, *Issues*, *Changed*) and displayed as individual cards.
-- **In-Memory Caching**: Implements a robust caching mechanism on the backend (1-hour TTL) to guarantee fast page loads and avoid hitting rate limits.
-- **Dynamic Refresh**: Allows users to bypass the cache and fetch the latest release notes on-demand.
-- **Search & Filtering**: Search and filter updates instantly on the frontend by type, keyword, or date.
-- **Error Resilience**: Gracefully falls back to the cache if the live Google Cloud feed is temporarily unavailable or timed out.
+A premium, interactive single-page dashboard application built with Python Flask and plain vanilla HTML, JavaScript, and CSS. The application parses the official Google Cloud BigQuery Release Notes feed, groups updates by date, and allows you to search, filter, and share specific releases on Twitter/X using a custom-designed composer modal.
 
 ---
 
-## 🛠️ Tech Stack
+## 📁 Project Directory Map
 
-- **Backend**: Python, [Flask](https://flask.palletsprojects.com/), [Beautiful Soup 4](https://www.crummy.com/software/BeautifulSoup/) (for HTML parsing), XML ElementTree (for Atom feed parsing).
-- **Frontend**: Vanilla CSS and Vanilla Javascript (dynamic API integration, DOM rendering, search filtering).
+Here is a brief description of each file included in this repository:
 
----
+### Core Application Code
+* **[app.py](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/app.py)**: The Python Flask backend router. Fetches the Google Cloud BigQuery XML feed, segments releases by day and update type (parsing `<h3>` tags), caches data in-memory for 1 hour to prevent rate-limiting, and exposes the `/api/updates` JSON API endpoint.
+* **[templates/index.html](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/templates/index.html)**: The frontend HTML template defining the semantic page structures, dashboard metric cards, controls (search input & filter pills), loading skeleton loaders, and the modal view markup for the X composer.
+* **[static/css/style.css](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/static/css/style.css)**: The stylesheet defining the dark-mode layout, glassmorphic card boundaries, color-coded tag pills, and animations (shimmer placeholders, rotating reload indicators, and modal scale transitions).
+* **[static/js/app.js](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/static/js/app.js)**: The client-side interactive logic. Manages client state, handles asynchronous GET queries, performs real-time keyword fuzzy matching, handles pill filtering, and operates the simulated X composer's SVG character progress limit.
 
-## 📂 Directory Structure
+### Configuration & Git
+* **[requirements.txt](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/requirements.txt)**: Contains the external Python package dependencies required for this project (`Flask`, `requests`, and `beautifulsoup4`).
+* **[.gitignore](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/.gitignore)**: Standard Git ignore configurations excluding compiled files (`__pycache__/`, `*.pyc`), environments (`venv/`), logs, and operating system clutter (`.DS_Store`).
 
-```text
-bq-releases-notes/
-├── app.py                # Main Flask backend application & API
-├── requirements.txt      # Python dependencies
-├── static/
-│   ├── css/
-│   │   └── style.css     # UI design & layout styles
-│   └── js/
-│       └── app.js        # Frontend interactions & rendering logic
-└── templates/
-    └── index.html        # Single Page application HTML template
-```
+### Project Artifacts & Documentation
+* **[release_hub_summary.md](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/release_hub_summary.md)**: A high-level overview summary of the project features, folder layout, and build steps.
+* **[project_architecture_details.md](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/project_architecture_details.md)**: A comprehensive deep-dive report tracing the architectural flow of the system. Includes server-side parser logic details, client-side circular meter math formulas, and sequence logic diagrams mapping the data fetching and tweeting flows.
 
 ---
 
-## ⚙️ Setup & Installation
+## ⚡ Quick Start & Run Guide
 
-### 1. Prerequisites
-Ensure you have **Python 3.8+** installed on your system.
+To run this application locally:
 
-### 2. Clone and Navigate
-Clone the repository or navigate to the project directory:
-```bash
-cd bq-releases-notes
-```
+1. **Install Dependencies**:
+   Open a terminal in the project root folder and execute:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### 3. Install Dependencies
-Install the required packages using `pip`:
-```bash
-pip install -r requirements.txt
-```
+2. **Start the Flask Server**:
+   Execute the application script:
+   ```bash
+   python app.py
+   ```
+   *The server will spin up on your localhost: `http://127.0.0.1:5000/` in debug mode.*
 
-### 4. Run the Application
-Start the Flask development server:
-```bash
-python app.py
-```
-
-Open your browser and navigate to:
-```text
-http://127.0.0.1:5000/
-```
-
----
-
-## 🔌 API Endpoints
-
-- **`GET /`**: Renders the main dashboard interface.
-- **`GET /api/updates`**: Fetches the parsed updates.
-  - **Query Parameters**:
-    - `refresh=true`: Forces the backend to bypass cache and fetch a fresh copy of the Atom feed.
-  - **JSON Response Format**:
-    ```json
-    {
-      "status": "success",
-      "last_updated": 1718872340.5,
-      "updates": [
-        {
-          "id": "entry_0_0",
-          "date": "June 18, 2026",
-          "updated": "2026-06-18T12:00:00Z",
-          "type": "Feature",
-          "description_html": "<p>BigQuery now supports...</p>",
-          "description_text": "BigQuery now supports...",
-          "link": "https://cloud.google.com/bigquery/docs/release-notes"
-        }
-      ]
-    }
-    ```
-
----
-
-## 📝 License
-
-This project is licensed under the Apache 2.0 License. See the [LICENSE](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/LICENSE) file for details.
+3. **Open the Dashboard**:
+   Go to your web browser and navigate to **[http://127.0.0.1:5000/](http://127.0.0.1:5000/)** to explore release notes, refresh the feed, filter categories, or draft tweets.
