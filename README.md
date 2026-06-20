@@ -22,6 +22,9 @@ Here is a brief description of each file included in this repository:
 * **[release_hub_summary.md](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/release_hub_summary.md)**: A high-level overview summary of the project features, folder layout, and build steps.
 * **[project_architecture_details.md](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/project_architecture_details.md)**: A comprehensive deep-dive report tracing the architectural flow of the system. Includes server-side parser logic details, client-side circular meter math formulas, and sequence logic diagrams mapping the data fetching and tweeting flows.
 
+### Developer Utility Tools
+* **[tools/](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/tools)**: A directory containing standalone debug scripts used to test feed connections ([inspect_feed.py](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/tools/inspect_feed.py)), audit HTML tags ([print_content.py](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/tools/print_content.py)), and validate parser JSON engines ([test_parser.py](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/tools/test_parser.py)). Includes a dedicated [tools/README.md](file:///C:/Users/chl20/agy-cli-projects/bq-releases-notes/tools/README.md) guide.
+
 ---
 
 ## ⚡ Quick Start & Run Guide
