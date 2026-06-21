@@ -46,3 +46,97 @@ To run this application locally:
 
 3. **Open the Dashboard**:
    Go to your web browser and navigate to **[http://127.0.0.1:5000/](http://127.0.0.1:5000/)** to explore release notes, refresh the feed, filter categories, or draft tweets.
+
+---
+
+## 🌐 Deployment Guides
+
+### 1. Render Cloud Service (Web Service)
+To deploy this project for free on Render:
+1. Create a new **Web Service** on Render and connect your GitHub repository.
+2. Configure the following settings during creation:
+   * **Environment**: `Python`
+   * **Branch**: `main`
+   * **Build Command**: `pip install -r requirements.txt`
+   * **Start Command**: `gunicorn app:app`
+   * **Instance Type**: `Free`
+
+---
+
+### 2. Ubuntu 24.04 Cloud VPS (Gunicorn + Nginx)
+To host the app in production on an Ubuntu VPS:
+
+#### A. Install Dependencies
+```bash
+sudo apt update
+sudo apt install -y python3 python3-pip python3-venv git nginx
+```
+
+#### B. Setup Project
+```bash
+sudo mkdir -p /var/www/event-talks-app
+sudo chown -R $USER:$USER /var/www/event-talks-app
+git clone https://github.com/SiuPak/event-talks-app.git /var/www/event-talks-app
+cd /var/www/event-talks-app
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+#### C. Systemd Service Configuration
+Create a service file:
+```bash
+sudo nano /etc/systemd/system/event-talks-app.service
+```
+Paste this configuration (replace `your_username` with your VPS username, e.g. `ubuntu` or `sipk`):
+```ini
+[Unit]
+Description=Gunicorn instance to serve BigQuery Release Hub
+After=network.target
+
+[Service]
+User=your_username
+Group=www-data
+WorkingDirectory=/var/www/event-talks-app
+Environment="PATH=/var/www/event-talks-app/venv/bin"
+Environment="HOME=/var/www/event-talks-app"
+ExecStart=/var/www/event-talks-app/venv/bin/gunicorn --workers 3 --bind unix:app.sock -m 007 app:app
+
+[Install]
+WantedBy=multi-user.target
+```
+Enable and start the background service:
+```bash
+sudo systemctl daemon-reload
+sudo systemctl enable event-talks-app
+sudo systemctl start event-talks-app
+```
+
+#### D. Nginx Reverse Proxy Config
+Create an Nginx configuration:
+```bash
+sudo nano /etc/nginx/sites-available/event-talks-app
+```
+Paste this configuration (replace `your_domain_or_ip` with your domain name or server IP):
+```nginx
+server {
+    listen 80;
+    server_name your_domain_or_ip;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/var/www/event-talks-app/app.sock;
+    }
+
+    location /static/ {
+        alias /var/www/event-talks-app/static/;
+    }
+}
+```
+Link and restart Nginx:
+```bash
+sudo ln -s /etc/nginx/sites-available/event-talks-app /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl restart nginx
+```
+
