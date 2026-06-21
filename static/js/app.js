@@ -59,7 +59,17 @@ document.addEventListener('DOMContentLoaded', () => {
             showLoading(true);
             warningBanner.style.display = 'none';
             
-            const url = forceRefresh ? '/api/updates?refresh=true' : '/api/updates';
+            const isLocalHost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+            let url;
+            if (isLocalHost) {
+                url = forceRefresh ? '/api/updates?refresh=true' : '/api/updates';
+            } else {
+                // Statically hosted on GitHub Pages, query the built JSON file relative to repository root
+                url = forceRefresh 
+                    ? `static/data/updates.json?t=${new Date().getTime()}` 
+                    : 'static/data/updates.json';
+            }
+            
             const response = await fetch(url);
             
             if (!response.ok) {
@@ -222,6 +232,34 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    // Fallback Clipboard copy helper to support both secure (HTTPS/localhost) and insecure (HTTP IP) contexts
+    function copyTextToClipboard(text) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            return navigator.clipboard.writeText(text);
+        }
+        return new Promise((resolve, reject) => {
+            try {
+                const textArea = document.createElement("textarea");
+                textArea.value = text;
+                textArea.style.top = "0";
+                textArea.style.left = "0";
+                textArea.style.position = "fixed";
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                const successful = document.execCommand('copy');
+                document.body.removeChild(textArea);
+                if (successful) {
+                    resolve();
+                } else {
+                    reject(new Error("Fallback copy command failed"));
+                }
+            } catch (err) {
+                reject(err);
+            }
+        });
+    }
+
     // Create DOM card element for a single update
     function createUpdateCard(update) {
         const card = document.createElement('article');
@@ -262,7 +300,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add Copy click listener
         card.querySelector('.copy-btn').addEventListener('click', (e) => {
             const btn = e.currentTarget;
-            navigator.clipboard.writeText(update.description_text).then(() => {
+            copyTextToClipboard(update.description_text).then(() => {
                 const originalHtml = btn.innerHTML;
                 btn.innerHTML = `<i class="bi bi-clipboard-check"></i> Copied!`;
                 btn.style.color = '#10b981'; // Green feedback
