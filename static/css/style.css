@@ -196,6 +196,31 @@ h1 {
     border-color: var(--border-card-hover);
 }
 
+.export-button {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+    border: 1px solid var(--border-card);
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition-smooth);
+}
+
+.export-button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--border-card-hover);
+    transform: translateY(-2px);
+}
+
+.export-button:active {
+    transform: translateY(0);
+}
+
 .refresh-button {
     background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
     color: white;

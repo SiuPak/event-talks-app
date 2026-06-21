@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedUpdate = null;
     
     // DOM Elements
+    const exportCsvBtn = document.getElementById('export-csv-btn');
     const refreshBtn = document.getElementById('refresh-btn');
     const refreshIcon = document.getElementById('refresh-icon');
     const lastUpdatedText = document.getElementById('last-updated-text');
@@ -242,6 +243,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     <i class="bi ${typeIcon}"></i> ${update.type}
                 </span>
                 <div class="card-actions">
+                    <button class="card-btn copy-btn" aria-label="Copy update text to clipboard">
+                        <i class="bi bi-clipboard"></i> Copy
+                    </button>
                     <button class="card-btn tweet-btn" data-id="${update.id}" aria-label="Tweet this update">
                         <i class="bi bi-twitter-x"></i> Share to X
                     </button>
@@ -255,6 +259,25 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         `;
         
+        // Add Copy click listener
+        card.querySelector('.copy-btn').addEventListener('click', (e) => {
+            const btn = e.currentTarget;
+            navigator.clipboard.writeText(update.description_text).then(() => {
+                const originalHtml = btn.innerHTML;
+                btn.innerHTML = `<i class="bi bi-clipboard-check"></i> Copied!`;
+                btn.style.color = '#10b981'; // Green feedback
+                btn.style.borderColor = 'rgba(16, 185, 129, 0.3)';
+                
+                setTimeout(() => {
+                    btn.innerHTML = originalHtml;
+                    btn.style.color = '';
+                    btn.style.borderColor = '';
+                }, 1500);
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        });
+
         // Add Tweet click listener
         card.querySelector('.tweet-btn').addEventListener('click', () => {
             openTweetModal(update);
@@ -415,11 +438,47 @@ document.addEventListener('DOMContentLoaded', () => {
         applyFiltersAndSearch();
     });
     
+    // Export to CSV helper
+    function exportToCSV(updates) {
+        const headers = ['Date', 'Category', 'Description', 'Link'];
+        const rows = updates.map(u => [
+            u.date,
+            u.type,
+            u.description_text,
+            u.link
+        ]);
+        
+        // Escape values for CSV (double quotes and duplicate internal quotes)
+        const csvContent = [
+            headers.join(','),
+            ...rows.map(row => row.map(val => `"${val.replace(/"/g, '""').replace(/\n/g, ' ')}"`).join(','))
+        ].join('\n');
+        
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.setAttribute('href', url);
+        link.setAttribute('download', `bigquery_release_notes_${new Date().toISOString().slice(0,10)}.csv`);
+        link.style.visibility = 'hidden';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+
     // Modal Event listeners
     modalCloseBtn.addEventListener('click', closeTweetModal);
     modalCancelBtn.addEventListener('click', closeTweetModal);
     tweetSubmitBtn.addEventListener('click', submitTweet);
     tweetTextarea.addEventListener('input', updateCharCount);
+    
+    // Export CSV click event listener
+    exportCsvBtn.addEventListener('click', () => {
+        if (filteredUpdates.length === 0) {
+            alert("No updates to export!");
+            return;
+        }
+        exportToCSV(filteredUpdates);
+    });
     
     // Close modal on click outside modal card
     tweetModal.addEventListener('click', (e) => {
