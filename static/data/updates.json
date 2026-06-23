@@ -2,6 +2,15 @@
   "updates": [
     {
       "id": "entry_0_0",
+      "date": "June 23, 2026",
+      "updated": "2026-06-23T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p><a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">Conversational analytics</a> in BigQuery\nis now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA) and includes the following features:</p>\n<ul>\n<li>You can select whether an agent can only use generally available models, or\na mix of preview and generally available models.</li>\n<li>You can change the thinking mode of an agent within a conversation.</li>\n<li>Agents can ask clarifying questions about your input prompt.</li>\n<li>Agent responses include context citations, to help you understand the specific \nsources used to generate the answer.</li>\n<li>Parameters are supported in verified queries.</li>\n<li><p>Agents can use the following AI functions to answer your questions:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-if\"><code>AI.IF</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-score\"><code>AI.SCORE</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-classify\"><code>AI.CLASSIFY</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-similarity\"><code>AI.SIMILARITY</code></a></li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-search\"><code>AI.SEARCH</code></a></li>\n</ul></li>\n</ul>\n<p>You can also create a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations#datasets\">conversation with a dataset</a>.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>",
+      "description_text": "Conversational analytics in BigQuery\nis now generally available\n(GA) and includes the following features:\n\nYou can select whether an agent can only use generally available models, or\na mix of preview and generally available models.\nYou can change the thinking mode of an agent within a conversation.\nAgents can ask clarifying questions about your input prompt.\nAgent responses include context citations, to help you understand the specific \nsources used to generate the answer.\nParameters are supported in verified queries.\nAgents can use the following AI functions to answer your questions:\n\nAI.KEY_DRIVERS\nAI.IF\nAI.SCORE\nAI.CLASSIFY\nAI.SIMILARITY\nAI.SEARCH\n\n\nYou can also create a\nconversation with a dataset.\nThis feature is in preview.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026"
+    },
+    {
+      "id": "entry_1_0",
       "date": "June 22, 2026",
       "updated": "2026-06-22T00:00:00-07:00",
       "type": "Feature",
@@ -10,7 +19,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026"
     },
     {
-      "id": "entry_1_0",
+      "id": "entry_2_0",
       "date": "June 17, 2026",
       "updated": "2026-06-17T00:00:00-07:00",
       "type": "Feature",
@@ -19,7 +28,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026"
     },
     {
-      "id": "entry_2_0",
+      "id": "entry_3_0",
       "date": "June 16, 2026",
       "updated": "2026-06-16T00:00:00-07:00",
       "type": "Announcement",
@@ -28,7 +37,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026"
     },
     {
-      "id": "entry_3_0",
+      "id": "entry_4_0",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Feature",
@@ -37,7 +46,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_3_1",
+      "id": "entry_4_1",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Issue",
@@ -46,7 +55,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_3_2",
+      "id": "entry_4_2",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Feature",
@@ -55,7 +64,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_3_3",
+      "id": "entry_4_3",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Feature",
@@ -64,7 +73,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_4_0",
+      "id": "entry_5_0",
       "date": "June 12, 2026",
       "updated": "2026-06-12T00:00:00-07:00",
       "type": "Feature",
@@ -73,7 +82,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026"
     },
     {
-      "id": "entry_5_0",
+      "id": "entry_6_0",
       "date": "June 11, 2026",
       "updated": "2026-06-11T00:00:00-07:00",
       "type": "Feature",
@@ -82,7 +91,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
     },
     {
-      "id": "entry_5_1",
+      "id": "entry_6_1",
       "date": "June 11, 2026",
       "updated": "2026-06-11T00:00:00-07:00",
       "type": "Feature",
@@ -91,7 +100,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
     },
     {
-      "id": "entry_6_0",
+      "id": "entry_7_0",
       "date": "June 10, 2026",
       "updated": "2026-06-10T00:00:00-07:00",
       "type": "Feature",
@@ -100,7 +109,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026"
     },
     {
-      "id": "entry_7_0",
+      "id": "entry_8_0",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -109,7 +118,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_7_1",
+      "id": "entry_8_1",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -118,7 +127,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_7_2",
+      "id": "entry_8_2",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -127,7 +136,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_7_3",
+      "id": "entry_8_3",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -136,7 +145,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_7_4",
+      "id": "entry_8_4",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -145,7 +154,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_7_5",
+      "id": "entry_8_5",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -154,7 +163,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_8_0",
+      "id": "entry_9_0",
       "date": "June 03, 2026",
       "updated": "2026-06-03T00:00:00-07:00",
       "type": "Feature",
@@ -163,7 +172,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026"
     },
     {
-      "id": "entry_9_0",
+      "id": "entry_10_0",
       "date": "June 02, 2026",
       "updated": "2026-06-02T00:00:00-07:00",
       "type": "Feature",
@@ -172,7 +181,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026"
     },
     {
-      "id": "entry_10_0",
+      "id": "entry_11_0",
       "date": "June 01, 2026",
       "updated": "2026-06-01T00:00:00-07:00",
       "type": "Change",
@@ -181,7 +190,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026"
     },
     {
-      "id": "entry_11_0",
+      "id": "entry_12_0",
       "date": "May 27, 2026",
       "updated": "2026-05-27T00:00:00-07:00",
       "type": "Change",
@@ -190,7 +199,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026"
     },
     {
-      "id": "entry_12_0",
+      "id": "entry_13_0",
       "date": "May 26, 2026",
       "updated": "2026-05-26T00:00:00-07:00",
       "type": "Feature",
@@ -199,7 +208,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026"
     },
     {
-      "id": "entry_13_0",
+      "id": "entry_14_0",
       "date": "May 20, 2026",
       "updated": "2026-05-20T00:00:00-07:00",
       "type": "Announcement",
@@ -208,7 +217,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
     },
     {
-      "id": "entry_13_1",
+      "id": "entry_14_1",
       "date": "May 20, 2026",
       "updated": "2026-05-20T00:00:00-07:00",
       "type": "Feature",
@@ -217,7 +226,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
     },
     {
-      "id": "entry_13_2",
+      "id": "entry_14_2",
       "date": "May 20, 2026",
       "updated": "2026-05-20T00:00:00-07:00",
       "type": "Feature",
@@ -226,7 +235,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
     },
     {
-      "id": "entry_14_0",
+      "id": "entry_15_0",
       "date": "May 18, 2026",
       "updated": "2026-05-18T00:00:00-07:00",
       "type": "Feature",
@@ -235,7 +244,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026"
     },
     {
-      "id": "entry_14_1",
+      "id": "entry_15_1",
       "date": "May 18, 2026",
       "updated": "2026-05-18T00:00:00-07:00",
       "type": "Feature",
@@ -244,7 +253,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026"
     },
     {
-      "id": "entry_14_2",
+      "id": "entry_15_2",
       "date": "May 18, 2026",
       "updated": "2026-05-18T00:00:00-07:00",
       "type": "Feature",
@@ -253,7 +262,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026"
     },
     {
-      "id": "entry_15_0",
+      "id": "entry_16_0",
       "date": "May 15, 2026",
       "updated": "2026-05-15T00:00:00-07:00",
       "type": "Feature",
@@ -262,7 +271,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026"
     },
     {
-      "id": "entry_16_0",
+      "id": "entry_17_0",
       "date": "May 14, 2026",
       "updated": "2026-05-14T00:00:00-07:00",
       "type": "Issue",
@@ -271,7 +280,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026"
     },
     {
-      "id": "entry_17_0",
+      "id": "entry_18_0",
       "date": "May 12, 2026",
       "updated": "2026-05-12T00:00:00-07:00",
       "type": "Feature",
@@ -280,7 +289,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026"
     },
     {
-      "id": "entry_18_0",
+      "id": "entry_19_0",
       "date": "May 08, 2026",
       "updated": "2026-05-08T00:00:00-07:00",
       "type": "Announcement",
@@ -289,7 +298,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_08_2026"
     },
     {
-      "id": "entry_19_0",
+      "id": "entry_20_0",
       "date": "May 06, 2026",
       "updated": "2026-05-06T00:00:00-07:00",
       "type": "Feature",
@@ -298,7 +307,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026"
     },
     {
-      "id": "entry_19_1",
+      "id": "entry_20_1",
       "date": "May 06, 2026",
       "updated": "2026-05-06T00:00:00-07:00",
       "type": "Breaking",
@@ -307,7 +316,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026"
     },
     {
-      "id": "entry_20_0",
+      "id": "entry_21_0",
       "date": "April 30, 2026",
       "updated": "2026-04-30T00:00:00-07:00",
       "type": "Breaking",
@@ -316,7 +325,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026"
     },
     {
-      "id": "entry_21_0",
+      "id": "entry_22_0",
       "date": "April 29, 2026",
       "updated": "2026-04-29T00:00:00-07:00",
       "type": "Breaking",
@@ -325,7 +334,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026"
     },
     {
-      "id": "entry_21_1",
+      "id": "entry_22_1",
       "date": "April 29, 2026",
       "updated": "2026-04-29T00:00:00-07:00",
       "type": "Feature",
@@ -334,7 +343,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026"
     },
     {
-      "id": "entry_21_2",
+      "id": "entry_22_2",
       "date": "April 29, 2026",
       "updated": "2026-04-29T00:00:00-07:00",
       "type": "Feature",
@@ -343,7 +352,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026"
     },
     {
-      "id": "entry_22_0",
+      "id": "entry_23_0",
       "date": "April 28, 2026",
       "updated": "2026-04-28T00:00:00-07:00",
       "type": "Feature",
@@ -352,7 +361,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_28_2026"
     },
     {
-      "id": "entry_23_0",
+      "id": "entry_24_0",
       "date": "April 23, 2026",
       "updated": "2026-04-23T00:00:00-07:00",
       "type": "Change",
@@ -361,7 +370,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_23_2026"
     },
     {
-      "id": "entry_24_0",
+      "id": "entry_25_0",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Feature",
@@ -370,7 +379,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_24_1",
+      "id": "entry_25_1",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Announcement",
@@ -379,7 +388,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_24_2",
+      "id": "entry_25_2",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Announcement",
@@ -388,7 +397,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_24_3",
+      "id": "entry_25_3",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Announcement",
@@ -397,7 +406,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_24_4",
+      "id": "entry_25_4",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Announcement",
@@ -406,7 +415,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_24_5",
+      "id": "entry_25_5",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Feature",
@@ -415,7 +424,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_24_6",
+      "id": "entry_25_6",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Feature",
@@ -424,7 +433,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_24_7",
+      "id": "entry_25_7",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Feature",
@@ -433,7 +442,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_25_0",
+      "id": "entry_26_0",
       "date": "April 21, 2026",
       "updated": "2026-04-21T00:00:00-07:00",
       "type": "Feature",
@@ -442,7 +451,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_21_2026"
     },
     {
-      "id": "entry_26_0",
+      "id": "entry_27_0",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Change",
@@ -451,7 +460,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     },
     {
-      "id": "entry_26_1",
+      "id": "entry_27_1",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Feature",
@@ -460,7 +469,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     },
     {
-      "id": "entry_26_2",
+      "id": "entry_27_2",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Feature",
@@ -469,7 +478,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     },
     {
-      "id": "entry_26_3",
+      "id": "entry_27_3",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Feature",
@@ -478,7 +487,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     },
     {
-      "id": "entry_26_4",
+      "id": "entry_27_4",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Feature",
@@ -487,7 +496,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     },
     {
-      "id": "entry_26_5",
+      "id": "entry_27_5",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Feature",
@@ -496,7 +505,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     },
     {
-      "id": "entry_27_0",
+      "id": "entry_28_0",
       "date": "April 17, 2026",
       "updated": "2026-04-17T00:00:00-07:00",
       "type": "Feature",
@@ -505,7 +514,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_17_2026"
     },
     {
-      "id": "entry_28_0",
+      "id": "entry_29_0",
       "date": "April 16, 2026",
       "updated": "2026-04-16T00:00:00-07:00",
       "type": "Feature",
@@ -514,7 +523,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_16_2026"
     },
     {
-      "id": "entry_28_1",
+      "id": "entry_29_1",
       "date": "April 16, 2026",
       "updated": "2026-04-16T00:00:00-07:00",
       "type": "Feature",
@@ -523,51 +532,15 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_16_2026"
     },
     {
-      "id": "entry_28_2",
+      "id": "entry_29_2",
       "date": "April 16, 2026",
       "updated": "2026-04-16T00:00:00-07:00",
       "type": "Feature",
       "description_html": "<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code> function</a>\nto identify segments of data that cause statistically significant changes to a\nsummable metric.</p>\n<p>This feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
       "description_text": "You can now use the\nAI.KEY_DRIVERS function\nto identify segments of data that cause statistically significant changes to a\nsummable metric.\nThis feature is in\nPreview.",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_16_2026"
-    },
-    {
-      "id": "entry_29_0",
-      "date": "April 15, 2026",
-      "updated": "2026-04-15T00:00:00-07:00",
-      "type": "Feature",
-      "description_html": "<p>BigQuery Apache Iceberg external tables now support\n<a href=\"https://iceberg.apache.org/spec/#version-3-extended-types-and-capabilities\">Iceberg version 3</a>,\nincluding binary deletion vectors. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/iceberg-external-tables\">Apache Iceberg external tables</a>.\nThis feature is in\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
-      "description_text": "BigQuery Apache Iceberg external tables now support\nIceberg version 3,\nincluding binary deletion vectors. For more information, see\nApache Iceberg external tables.\nThis feature is in\nPreview.",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_15_2026"
-    },
-    {
-      "id": "entry_29_1",
-      "date": "April 15, 2026",
-      "updated": "2026-04-15T00:00:00-07:00",
-      "type": "Announcement",
-      "description_html": "<p>A known issue has been resolved where a materialized view refresh could expose masked or filtered data from fine grained access control policies in error messages. No further action is needed.</p>",
-      "description_text": "A known issue has been resolved where a materialized view refresh could expose masked or filtered data from fine grained access control policies in error messages. No further action is needed.",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_15_2026"
-    },
-    {
-      "id": "entry_29_2",
-      "date": "April 15, 2026",
-      "updated": "2026-04-15T00:00:00-07:00",
-      "type": "Feature",
-      "description_html": "<p>BigQuery agent analytics is now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA) in the Google Agent Developer Kit. <a href=\"https://docs.cloud.google.com/bigquery/docs/bigquery-agent-analytics\">BigQuery agent analytics</a>\nis an open source solution that lets you capture, analyze, and visualize\nmultimodal agent interaction data at scale.</p>",
-      "description_text": "BigQuery agent analytics is now generally available (GA) in the Google Agent Developer Kit. BigQuery agent analytics\nis an open source solution that lets you capture, analyze, and visualize\nmultimodal agent interaction data at scale.",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_15_2026"
-    },
-    {
-      "id": "entry_29_3",
-      "date": "April 15, 2026",
-      "updated": "2026-04-15T00:00:00-07:00",
-      "type": "Feature",
-      "description_html": "<p>You can now use <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/export-statements#export_to_alloydb\"><code>EXPORT DATA</code>\nstatements</a> to <a href=\"https://docs.cloud.google.com/bigquery/docs/export-to-alloydb\">reverse\nETL BigQuery data to AlloyDB</a>. This feature is\nin <a href=\"https://cloud.google.com/products/#product-launch-stages\">Preview</a>.</p>",
-      "description_text": "You can now use EXPORT DATA\nstatements to reverse\nETL BigQuery data to AlloyDB. This feature is\nin Preview.",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_15_2026"
     }
   ],
-  "last_updated": 1782229679.762101,
+  "last_updated": 1782237274.7401774,
   "status": "success"
 }
