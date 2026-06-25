@@ -4,6 +4,15 @@
       "id": "entry_0_0",
       "date": "June 25, 2026",
       "updated": "2026-06-25T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/search_functions#vector_search\"><code>VECTOR_SEARCH</code> function</a>\nto combine a semantic search with a lexical (keyword) search. This is known as a\nhybrid search. You can also extend a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#create_vector_index_statement\">vector index</a>\nto include keyword information to improve the speed of the lexical search\nportion of a hybrid search.</p>\n<p>This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "description_text": "You can now use the VECTOR_SEARCH function\nto combine a semantic search with a lexical (keyword) search. This is known as a\nhybrid search. You can also extend a\nvector index\nto include keyword information to improve the speed of the lexical search\nportion of a hybrid search.\nThis feature is in Preview.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "June 25, 2026",
+      "updated": "2026-06-25T00:00:00-07:00",
       "type": "Change",
       "description_html": "<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
       "description_text": "An updated version of the\nSimba ODBC driver for BigQuery\nis now available.",
@@ -532,6 +541,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_17_2026"
     }
   ],
-  "last_updated": 1782410986.881305,
+  "last_updated": 1782421041.5699277,
   "status": "success"
 }
