@@ -2,6 +2,15 @@
   "updates": [
     {
       "id": "entry_0_0",
+      "date": "June 29, 2026",
+      "updated": "2026-06-29T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>You can now grant data preparations and pipelines access to additional\nservices when running or scheduling them with user credentials\nfor a Google Account. You can grant <a href=\"https://docs.cloud.google.com/bigquery/docs/orchestrate-data-preparations\">data preparations access to Google Drive</a>,\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/schedule-pipelines\">grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog</a>.\nExtended access options are available in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "description_text": "You can now grant data preparations and pipelines access to additional\nservices when running or scheduling them with user credentials\nfor a Google Account. You can grant data preparations access to Google Drive,\nand grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog.\nExtended access options are available in\nPreview.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026"
+    },
+    {
+      "id": "entry_1_0",
       "date": "June 25, 2026",
       "updated": "2026-06-25T00:00:00-07:00",
       "type": "Change",
@@ -10,7 +19,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026"
     },
     {
-      "id": "entry_0_1",
+      "id": "entry_1_1",
       "date": "June 25, 2026",
       "updated": "2026-06-25T00:00:00-07:00",
       "type": "Feature",
@@ -19,7 +28,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026"
     },
     {
-      "id": "entry_1_0",
+      "id": "entry_2_0",
       "date": "June 23, 2026",
       "updated": "2026-06-23T00:00:00-07:00",
       "type": "Feature",
@@ -28,7 +37,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026"
     },
     {
-      "id": "entry_1_1",
+      "id": "entry_2_1",
       "date": "June 23, 2026",
       "updated": "2026-06-23T00:00:00-07:00",
       "type": "Feature",
@@ -37,7 +46,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026"
     },
     {
-      "id": "entry_2_0",
+      "id": "entry_3_0",
       "date": "June 22, 2026",
       "updated": "2026-06-22T00:00:00-07:00",
       "type": "Feature",
@@ -46,7 +55,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026"
     },
     {
-      "id": "entry_3_0",
+      "id": "entry_4_0",
       "date": "June 17, 2026",
       "updated": "2026-06-17T00:00:00-07:00",
       "type": "Feature",
@@ -55,7 +64,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026"
     },
     {
-      "id": "entry_4_0",
+      "id": "entry_5_0",
       "date": "June 16, 2026",
       "updated": "2026-06-16T00:00:00-07:00",
       "type": "Announcement",
@@ -64,7 +73,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026"
     },
     {
-      "id": "entry_5_0",
+      "id": "entry_6_0",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Feature",
@@ -73,7 +82,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_5_1",
+      "id": "entry_6_1",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Issue",
@@ -82,7 +91,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_5_2",
+      "id": "entry_6_2",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Feature",
@@ -91,7 +100,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_5_3",
+      "id": "entry_6_3",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Feature",
@@ -100,7 +109,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_6_0",
+      "id": "entry_7_0",
       "date": "June 12, 2026",
       "updated": "2026-06-12T00:00:00-07:00",
       "type": "Feature",
@@ -109,7 +118,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026"
     },
     {
-      "id": "entry_7_0",
+      "id": "entry_8_0",
       "date": "June 11, 2026",
       "updated": "2026-06-11T00:00:00-07:00",
       "type": "Feature",
@@ -118,7 +127,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
     },
     {
-      "id": "entry_7_1",
+      "id": "entry_8_1",
       "date": "June 11, 2026",
       "updated": "2026-06-11T00:00:00-07:00",
       "type": "Feature",
@@ -127,7 +136,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
     },
     {
-      "id": "entry_8_0",
+      "id": "entry_9_0",
       "date": "June 10, 2026",
       "updated": "2026-06-10T00:00:00-07:00",
       "type": "Feature",
@@ -136,7 +145,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026"
     },
     {
-      "id": "entry_9_0",
+      "id": "entry_10_0",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -145,7 +154,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_9_1",
+      "id": "entry_10_1",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -154,7 +163,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_9_2",
+      "id": "entry_10_2",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -163,7 +172,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_9_3",
+      "id": "entry_10_3",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -172,7 +181,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_9_4",
+      "id": "entry_10_4",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -181,7 +190,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_9_5",
+      "id": "entry_10_5",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -190,7 +199,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_10_0",
+      "id": "entry_11_0",
       "date": "June 03, 2026",
       "updated": "2026-06-03T00:00:00-07:00",
       "type": "Feature",
@@ -199,7 +208,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_03_2026"
     },
     {
-      "id": "entry_11_0",
+      "id": "entry_12_0",
       "date": "June 02, 2026",
       "updated": "2026-06-02T00:00:00-07:00",
       "type": "Feature",
@@ -208,7 +217,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_02_2026"
     },
     {
-      "id": "entry_12_0",
+      "id": "entry_13_0",
       "date": "June 01, 2026",
       "updated": "2026-06-01T00:00:00-07:00",
       "type": "Change",
@@ -217,7 +226,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_01_2026"
     },
     {
-      "id": "entry_13_0",
+      "id": "entry_14_0",
       "date": "May 27, 2026",
       "updated": "2026-05-27T00:00:00-07:00",
       "type": "Change",
@@ -226,7 +235,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_27_2026"
     },
     {
-      "id": "entry_14_0",
+      "id": "entry_15_0",
       "date": "May 26, 2026",
       "updated": "2026-05-26T00:00:00-07:00",
       "type": "Feature",
@@ -235,7 +244,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_26_2026"
     },
     {
-      "id": "entry_15_0",
+      "id": "entry_16_0",
       "date": "May 20, 2026",
       "updated": "2026-05-20T00:00:00-07:00",
       "type": "Announcement",
@@ -244,7 +253,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
     },
     {
-      "id": "entry_15_1",
+      "id": "entry_16_1",
       "date": "May 20, 2026",
       "updated": "2026-05-20T00:00:00-07:00",
       "type": "Feature",
@@ -253,7 +262,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
     },
     {
-      "id": "entry_15_2",
+      "id": "entry_16_2",
       "date": "May 20, 2026",
       "updated": "2026-05-20T00:00:00-07:00",
       "type": "Feature",
@@ -262,7 +271,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
     },
     {
-      "id": "entry_16_0",
+      "id": "entry_17_0",
       "date": "May 18, 2026",
       "updated": "2026-05-18T00:00:00-07:00",
       "type": "Feature",
@@ -271,7 +280,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026"
     },
     {
-      "id": "entry_16_1",
+      "id": "entry_17_1",
       "date": "May 18, 2026",
       "updated": "2026-05-18T00:00:00-07:00",
       "type": "Feature",
@@ -280,7 +289,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026"
     },
     {
-      "id": "entry_16_2",
+      "id": "entry_17_2",
       "date": "May 18, 2026",
       "updated": "2026-05-18T00:00:00-07:00",
       "type": "Feature",
@@ -289,7 +298,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_18_2026"
     },
     {
-      "id": "entry_17_0",
+      "id": "entry_18_0",
       "date": "May 15, 2026",
       "updated": "2026-05-15T00:00:00-07:00",
       "type": "Feature",
@@ -298,7 +307,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026"
     },
     {
-      "id": "entry_18_0",
+      "id": "entry_19_0",
       "date": "May 14, 2026",
       "updated": "2026-05-14T00:00:00-07:00",
       "type": "Issue",
@@ -307,7 +316,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_14_2026"
     },
     {
-      "id": "entry_19_0",
+      "id": "entry_20_0",
       "date": "May 12, 2026",
       "updated": "2026-05-12T00:00:00-07:00",
       "type": "Feature",
@@ -316,7 +325,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_12_2026"
     },
     {
-      "id": "entry_20_0",
+      "id": "entry_21_0",
       "date": "May 08, 2026",
       "updated": "2026-05-08T00:00:00-07:00",
       "type": "Announcement",
@@ -325,7 +334,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_08_2026"
     },
     {
-      "id": "entry_21_0",
+      "id": "entry_22_0",
       "date": "May 06, 2026",
       "updated": "2026-05-06T00:00:00-07:00",
       "type": "Feature",
@@ -334,7 +343,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026"
     },
     {
-      "id": "entry_21_1",
+      "id": "entry_22_1",
       "date": "May 06, 2026",
       "updated": "2026-05-06T00:00:00-07:00",
       "type": "Breaking",
@@ -343,7 +352,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026"
     },
     {
-      "id": "entry_22_0",
+      "id": "entry_23_0",
       "date": "April 30, 2026",
       "updated": "2026-04-30T00:00:00-07:00",
       "type": "Breaking",
@@ -352,7 +361,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026"
     },
     {
-      "id": "entry_23_0",
+      "id": "entry_24_0",
       "date": "April 29, 2026",
       "updated": "2026-04-29T00:00:00-07:00",
       "type": "Breaking",
@@ -361,7 +370,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026"
     },
     {
-      "id": "entry_23_1",
+      "id": "entry_24_1",
       "date": "April 29, 2026",
       "updated": "2026-04-29T00:00:00-07:00",
       "type": "Feature",
@@ -370,7 +379,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026"
     },
     {
-      "id": "entry_23_2",
+      "id": "entry_24_2",
       "date": "April 29, 2026",
       "updated": "2026-04-29T00:00:00-07:00",
       "type": "Feature",
@@ -379,7 +388,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026"
     },
     {
-      "id": "entry_24_0",
+      "id": "entry_25_0",
       "date": "April 28, 2026",
       "updated": "2026-04-28T00:00:00-07:00",
       "type": "Feature",
@@ -388,7 +397,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_28_2026"
     },
     {
-      "id": "entry_25_0",
+      "id": "entry_26_0",
       "date": "April 23, 2026",
       "updated": "2026-04-23T00:00:00-07:00",
       "type": "Change",
@@ -397,7 +406,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_23_2026"
     },
     {
-      "id": "entry_26_0",
+      "id": "entry_27_0",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Feature",
@@ -406,7 +415,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_26_1",
+      "id": "entry_27_1",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Announcement",
@@ -415,7 +424,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_26_2",
+      "id": "entry_27_2",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Announcement",
@@ -424,7 +433,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_26_3",
+      "id": "entry_27_3",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Announcement",
@@ -433,7 +442,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_26_4",
+      "id": "entry_27_4",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Announcement",
@@ -442,7 +451,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_26_5",
+      "id": "entry_27_5",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Feature",
@@ -451,7 +460,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_26_6",
+      "id": "entry_27_6",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Feature",
@@ -460,7 +469,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_26_7",
+      "id": "entry_27_7",
       "date": "April 22, 2026",
       "updated": "2026-04-22T00:00:00-07:00",
       "type": "Feature",
@@ -469,7 +478,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_22_2026"
     },
     {
-      "id": "entry_27_0",
+      "id": "entry_28_0",
       "date": "April 21, 2026",
       "updated": "2026-04-21T00:00:00-07:00",
       "type": "Feature",
@@ -478,7 +487,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_21_2026"
     },
     {
-      "id": "entry_28_0",
+      "id": "entry_29_0",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Change",
@@ -487,7 +496,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     },
     {
-      "id": "entry_28_1",
+      "id": "entry_29_1",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Feature",
@@ -496,7 +505,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     },
     {
-      "id": "entry_28_2",
+      "id": "entry_29_2",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Feature",
@@ -505,7 +514,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     },
     {
-      "id": "entry_28_3",
+      "id": "entry_29_3",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Feature",
@@ -514,7 +523,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     },
     {
-      "id": "entry_28_4",
+      "id": "entry_29_4",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Feature",
@@ -523,24 +532,15 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     },
     {
-      "id": "entry_28_5",
+      "id": "entry_29_5",
       "date": "April 20, 2026",
       "updated": "2026-04-20T00:00:00-07:00",
       "type": "Feature",
       "description_html": "<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/notebooks-introduction#notebook_gallery\">notebook gallery</a>\nin the BigQuery web UI as your central hub for discovering and using prebuilt notebook\ntemplates. This feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>",
       "description_text": "You can now use the notebook gallery\nin the BigQuery web UI as your central hub for discovering and using prebuilt notebook\ntemplates. This feature is generally available\n(GA).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
-    },
-    {
-      "id": "entry_29_0",
-      "date": "April 17, 2026",
-      "updated": "2026-04-17T00:00:00-07:00",
-      "type": "Feature",
-      "description_html": "<p>Using\n<a href=\"https://docs.cloud.google.com/bigquery/docs/code-asset-folders\">folders</a>\nto organize and control access to single file code assets is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). In addition, you can perform bulk move and delete operations, refresh\nfolder contents, and view full breadcrumb paths based on resource permissions.\nFor more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-manage-folders\">Create and manage folders</a>.</p>",
-      "description_text": "Using\nfolders\nto organize and control access to single file code assets is\ngenerally available\n(GA). In addition, you can perform bulk move and delete operations, refresh\nfolder contents, and view full breadcrumb paths based on resource permissions.\nFor more information, see\nCreate and manage folders.",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_17_2026"
     }
   ],
-  "last_updated": 1782744676.5626519,
+  "last_updated": 1782754588.9545236,
   "status": "success"
 }
