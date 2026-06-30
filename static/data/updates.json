@@ -4,6 +4,15 @@
       "id": "entry_0_0",
       "date": "June 29, 2026",
       "updated": "2026-06-29T00:00:00-07:00",
+      "type": "Change",
+      "description_html": "<p>Effective <em>March 9, 2026</em>, new users are required to have a Cloud Billing\naccount to use the <a href=\"https://docs.cloud.google.com/bigquery/docs/migration-intro\">BigQuery Migration Service</a>.\nThis change applies to users starting new projects using BigQuery Migration\nService features, such as SQL translation and migration assessment.</p>\n<p>After <em>May 18, 2026</em>, all users are required to have a Cloud Billing account to\nuse the BigQuery Migration Service.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/migration-intro#pricing\">Pricing for the BigQuery Migration Service</a>\nremains without charge.</p>",
+      "description_text": "Effective March 9, 2026, new users are required to have a Cloud Billing\naccount to use the BigQuery Migration Service.\nThis change applies to users starting new projects using BigQuery Migration\nService features, such as SQL translation and migration assessment.\nAfter May 18, 2026, all users are required to have a Cloud Billing account to\nuse the BigQuery Migration Service.\nPricing for the BigQuery Migration Service\nremains without charge.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "June 29, 2026",
+      "updated": "2026-06-29T00:00:00-07:00",
       "type": "Feature",
       "description_html": "<p>You can now grant data preparations and pipelines access to additional\nservices when running or scheduling them with user credentials\nfor a Google Account. You can grant <a href=\"https://docs.cloud.google.com/bigquery/docs/orchestrate-data-preparations\">data preparations access to Google Drive</a>,\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/schedule-pipelines\">grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog</a>.\nExtended access options are available in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
       "description_text": "You can now grant data preparations and pipelines access to additional\nservices when running or scheduling them with user credentials\nfor a Google Account. You can grant data preparations access to Google Drive,\nand grant pipelines access to Google Drive, Bigtable, and Knowledge Catalog.\nExtended access options are available in\nPreview.",
@@ -541,6 +550,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_20_2026"
     }
   ],
-  "last_updated": 1782773846.2944274,
+  "last_updated": 1782778298.8635857,
   "status": "success"
 }
