@@ -19,6 +19,15 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
     },
     {
+      "id": "entry_0_2",
+      "date": "July 09, 2026",
+      "updated": "2026-07-09T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>Support for hybrid search (using the <code>VECTOR_SEARCH</code> function to combine a\nsemantic search with a lexical (keyword) search) has been temporarily disabled.\nWe are working to restore this feature as soon as possible.</p>",
+      "description_text": "Support for hybrid search (using the VECTOR_SEARCH function to combine a\nsemantic search with a lexical (keyword) search) has been temporarily disabled.\nWe are working to restore this feature as soon as possible.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
+    },
+    {
       "id": "entry_1_0",
       "date": "July 08, 2026",
       "updated": "2026-07-08T00:00:00-07:00",
@@ -460,6 +469,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_29_2026"
     }
   ],
-  "last_updated": 1783638656.84471,
+  "last_updated": 1783653372.4796708,
   "status": "success"
 }
