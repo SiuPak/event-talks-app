@@ -4,13 +4,22 @@
       "id": "entry_0_0",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>Table partitioning, multi-statement transactions, and advanced runtime are now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA) for\n<a href=\"https://docs.cloud.google.com/bigquery/docs/biglake-iceberg-tables-in-bigquery\">Apache Iceberg managed tables</a>.</p>",
+      "description_text": "Table partitioning, multi-statement transactions, and advanced runtime are now\ngenerally available\n(GA) for\nApache Iceberg managed tables.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
       "type": "Security",
       "description_html": "<p>A Missing Authorization vulnerability was discovered in repositories in\nBigQuery, Dataform, and Colab Enterprise. An authenticated attacker could\npotentially escalate permissions and perform cross-tenant repository takeover.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/support/bulletins#gcp-2026-047\">GCP-2026-047</a> security bulletin.</p>",
       "description_text": "A Missing Authorization vulnerability was discovered in repositories in\nBigQuery, Dataform, and Colab Enterprise. An authenticated attacker could\npotentially escalate permissions and perform cross-tenant repository takeover.\nFor more information, see the\nGCP-2026-047 security bulletin.",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_0_1",
+      "id": "entry_0_2",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -19,7 +28,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_0_2",
+      "id": "entry_0_3",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -28,7 +37,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_0_3",
+      "id": "entry_0_4",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -37,7 +46,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_0_4",
+      "id": "entry_0_5",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -46,7 +55,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_0_5",
+      "id": "entry_0_6",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -505,6 +514,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026"
     }
   ],
-  "last_updated": 1783983422.6856828,
+  "last_updated": 1783987029.319213,
   "status": "success"
 }
