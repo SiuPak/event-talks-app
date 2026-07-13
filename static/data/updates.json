@@ -14,12 +14,30 @@
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
+      "description_html": "<p><a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-workload-management#scheduling-policies\">Project caps (also known as scheduling policies)</a>\nlet you limit maximum slots and concurrency per project within a BigQuery\nreservation. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "description_text": "Project caps (also known as scheduling policies)\nlet you limit maximum slots and concurrency per project within a BigQuery\nreservation. This feature is in\nPreview.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
+    },
+    {
+      "id": "entry_0_2",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
+      "type": "Feature",
       "description_html": "<p>The BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/bigquery-web-ui#open-overview\"><strong>Overview</strong> page</a>\nis a hub for discovering tutorials, features, and resources to help you get the\nmost out of BigQuery. It provides guided paths for users of all skill levels.\nThis feature is now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "description_text": "The BigQuery Overview page\nis a hub for discovering tutorials, features, and resources to help you get the\nmost out of BigQuery. It provides guided paths for users of all skill levels.\nThis feature is now\ngenerally available\n(GA).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_0_2",
+      "id": "entry_0_3",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/use-bigquery-migration-mcp\">BigQuery Migration Service MCP server</a>\nto perform SQL translation tasks, including translating SQL queries into\nGoogleSQL syntax, generating DDL statements from SQL input queries, and getting\nexplanations of SQL translations.</p>\n<p>This feature is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">Generally Available</a>.</p>",
+      "description_text": "You can use the BigQuery Migration Service MCP server\nto perform SQL translation tasks, including translating SQL queries into\nGoogleSQL syntax, generating DDL statements from SQL input queries, and getting\nexplanations of SQL translations.\nThis feature is\nGenerally Available.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
+    },
+    {
+      "id": "entry_0_4",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -97,6 +115,15 @@
       "type": "Feature",
       "description_html": "<p>You can specify an optional <code>principal</code> property on\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments\">BigQuery reservation assignments</a> to\nroute queries to specific reservations based on the identity of the user,\nservice account, or third-party identity executing the job.</p>",
       "description_text": "You can specify an optional principal property on\nBigQuery reservation assignments to\nroute queries to specific reservations based on the identity of the user,\nservice account, or third-party identity executing the job.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026"
+    },
+    {
+      "id": "entry_5_1",
+      "date": "June 30, 2026",
+      "updated": "2026-06-30T00:00:00-07:00",
+      "type": "Change",
+      "description_html": "<p>In the Google Cloud console, <strong>Capacity management</strong> has been renamed <a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-intro\"><strong>Workload management</strong></a>.</p>",
+      "description_text": "In the Google Cloud console, Capacity management has been renamed Workload management.",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026"
     },
     {
@@ -469,6 +496,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026"
     }
   ],
-  "last_updated": 1783968193.1717877,
+  "last_updated": 1783973671.0706668,
   "status": "success"
 }
