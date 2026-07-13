@@ -46,6 +46,15 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
+      "id": "entry_0_5",
+      "date": "July 13, 2026",
+      "updated": "2026-07-13T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>You can now use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-definition-language#alter_search_index_statement\"><code>ALTER SEARCH INDEX</code> DDL statement</a>\nto\n<a href=\"https://docs.cloud.google.com/bigquery/docs/search-index#update_a_search_index\">update the configuration</a>\nof a search index. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "description_text": "You can now use the\nALTER SEARCH INDEX DDL statement\nto\nupdate the configuration\nof a search index. This feature is in\nPreview.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
+    },
+    {
       "id": "entry_1_0",
       "date": "July 09, 2026",
       "updated": "2026-07-09T00:00:00-07:00",
@@ -496,6 +505,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#April_30_2026"
     }
   ],
-  "last_updated": 1783973671.0706668,
+  "last_updated": 1783979761.5630639,
   "status": "success"
 }
