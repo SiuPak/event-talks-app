@@ -10,6 +10,15 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026"
     },
     {
+      "id": "entry_0_1",
+      "date": "July 14, 2026",
+      "updated": "2026-07-14T00:00:00-07:00",
+      "type": "Announcement",
+      "description_html": "<p>As part of\n<a href=\"https://docs.cloud.google.com/bigquery/docs/gemini-security-privacy-compliance\">Gemini in BigQuery</a>,\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">conversational analytics</a>\nnow supports <a href=\"https://cloud.google.com/security/compliance/hipaa\">HIPAA</a>\ncompliance.</p>",
+      "description_text": "As part of\nGemini in BigQuery,\nconversational analytics\nnow supports HIPAA\ncompliance.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026"
+    },
+    {
       "id": "entry_1_0",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
@@ -514,6 +523,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_06_2026"
     }
   ],
-  "last_updated": 1784070027.468668,
+  "last_updated": 1784082306.4684443,
   "status": "success"
 }
