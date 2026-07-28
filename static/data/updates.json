@@ -22,6 +22,15 @@
       "id": "entry_0_2",
       "date": "July 27, 2026",
       "updated": "2026-07-27T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>You can use the Google-developed\n<a href=\"https://docs.cloud.google.com/bigquery/docs/odbc-for-bigquery\">Open Database Connectivity (ODBC) driver for BigQuery</a>\nto connect your applications to BigQuery. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "description_text": "You can use the Google-developed\nOpen Database Connectivity (ODBC) driver for BigQuery\nto connect your applications to BigQuery. This feature is\ngenerally available\n(GA).",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026"
+    },
+    {
+      "id": "entry_0_3",
+      "date": "July 27, 2026",
+      "updated": "2026-07-27T00:00:00-07:00",
       "type": "Change",
       "description_html": "<p>The feature formerly known as the <em>legacy <code>tabledata.insertAll</code> method</em> is now\ncalled the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/streaming-data-into-bigquery\"><em>Storage Write API (REST)</em></a>. The\nfeature formerly known as the <em>Storage Write API</em> is now called the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/write-api\"><em>Storage Write API (gRPC)</em></a>.</p>",
       "description_text": "The feature formerly known as the legacy tabledata.insertAll method is now\ncalled the\nStorage Write API (REST). The\nfeature formerly known as the Storage Write API is now called the\nStorage Write API (gRPC).",
@@ -541,6 +550,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026"
     }
   ],
-  "last_updated": 1785196911.2096932,
+  "last_updated": 1785211718.2178724,
   "status": "success"
 }
