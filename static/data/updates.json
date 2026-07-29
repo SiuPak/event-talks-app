@@ -104,7 +104,7 @@
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Security",
-      "description_html": "<p>A Missing Authorization vulnerability was discovered in repositories in\nBigQuery, Dataform, and Colab Enterprise. An authenticated attacker could\npotentially escalate permissions and perform cross-tenant repository takeover.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/support/bulletins#gcp-2026-047\">GCP-2026-047</a> security bulletin.</p>",
+      "description_html": "<p>A Missing Authorization vulnerability was discovered in repositories in\nBigQuery, Dataform, and Colab Enterprise. An authenticated attacker could\npotentially escalate permissions and perform cross-tenant repository takeover.\nFor more information, see the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/security-bulletins#GCP-2026-047\">GCP-2026-047</a> security bulletin.</p>",
       "description_text": "A Missing Authorization vulnerability was discovered in repositories in\nBigQuery, Dataform, and Colab Enterprise. An authenticated attacker could\npotentially escalate permissions and perform cross-tenant repository takeover.\nFor more information, see the\nGCP-2026-047 security bulletin.",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
@@ -550,6 +550,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_15_2026"
     }
   ],
-  "last_updated": 1785310935.7491734,
+  "last_updated": 1785321456.084636,
   "status": "success"
 }
