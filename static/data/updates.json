@@ -5,6 +5,15 @@
       "date": "July 30, 2026",
       "updated": "2026-07-30T00:00:00-07:00",
       "type": "Feature",
+      "description_html": "<p>You can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more information, see\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines#add_a_pipeline_task\">Add a pipeline task</a>.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+      "description_text": "You can add tables, views, data sources, and data quality tests as tasks to\nBigQuery pipelines. For more information, see\nAdd a pipeline task.\nThis feature is\ngenerally available.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "July 30, 2026",
+      "updated": "2026-07-30T00:00:00-07:00",
+      "type": "Feature",
       "description_html": "<p>You can audit when users download query results by using the BigQuery\nconsole. Data Access audit logs for the <code>tabledata.list</code> method now include a\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/auditlogs/rest/Shared.Types/BigQueryAuditMetadata.html#BigQueryAuditMetadata.TableDataRead.FIELDS.ui_download_request\"><code>uiDownloadRequest</code></a>\nfield to indicate whether the request was triggered by a UI download.\nThis feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "description_text": "You can audit when users download query results by using the BigQuery\nconsole. Data Access audit logs for the tabledata.list method now include a\nuiDownloadRequest\nfield to indicate whether the request was triggered by a UI download.\nThis feature is\ngenerally available\n(GA).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026"
@@ -532,6 +541,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#May_20_2026"
     }
   ],
-  "last_updated": 1785452794.4054902,
+  "last_updated": 1785465932.8427162,
   "status": "success"
 }
