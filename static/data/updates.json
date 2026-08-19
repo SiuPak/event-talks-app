@@ -2,6 +2,15 @@
   "updates": [
     {
       "id": "entry_0_0",
+      "date": "August 18, 2026",
+      "updated": "2026-08-18T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>The default per-project limit of user-specific\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-assignments#assignment-logic-and-criteria\">reservation assignments</a>\nhas been increased from 10 to 100.</p>",
+      "description_text": "The default per-project limit of user-specific\nreservation assignments\nhas been increased from 10 to 100.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026"
+    },
+    {
+      "id": "entry_1_0",
       "date": "August 13, 2026",
       "updated": "2026-08-13T00:00:00-07:00",
       "type": "Feature",
@@ -10,7 +19,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_13_2026"
     },
     {
-      "id": "entry_1_0",
+      "id": "entry_2_0",
       "date": "August 12, 2026",
       "updated": "2026-08-12T00:00:00-07:00",
       "type": "Announcement",
@@ -19,7 +28,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_12_2026"
     },
     {
-      "id": "entry_2_0",
+      "id": "entry_3_0",
       "date": "August 11, 2026",
       "updated": "2026-08-11T00:00:00-07:00",
       "type": "Feature",
@@ -28,7 +37,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_11_2026"
     },
     {
-      "id": "entry_3_0",
+      "id": "entry_4_0",
       "date": "August 10, 2026",
       "updated": "2026-08-10T00:00:00-07:00",
       "type": "Feature",
@@ -37,7 +46,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_10_2026"
     },
     {
-      "id": "entry_4_0",
+      "id": "entry_5_0",
       "date": "August 03, 2026",
       "updated": "2026-08-03T00:00:00-07:00",
       "type": "Feature",
@@ -46,7 +55,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026"
     },
     {
-      "id": "entry_4_1",
+      "id": "entry_5_1",
       "date": "August 03, 2026",
       "updated": "2026-08-03T00:00:00-07:00",
       "type": "Feature",
@@ -55,7 +64,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026"
     },
     {
-      "id": "entry_4_2",
+      "id": "entry_5_2",
       "date": "August 03, 2026",
       "updated": "2026-08-03T00:00:00-07:00",
       "type": "Announcement",
@@ -64,7 +73,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_03_2026"
     },
     {
-      "id": "entry_5_0",
+      "id": "entry_6_0",
       "date": "July 30, 2026",
       "updated": "2026-07-30T00:00:00-07:00",
       "type": "Feature",
@@ -73,7 +82,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026"
     },
     {
-      "id": "entry_5_1",
+      "id": "entry_6_1",
       "date": "July 30, 2026",
       "updated": "2026-07-30T00:00:00-07:00",
       "type": "Feature",
@@ -82,7 +91,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_30_2026"
     },
     {
-      "id": "entry_6_0",
+      "id": "entry_7_0",
       "date": "July 29, 2026",
       "updated": "2026-07-29T00:00:00-07:00",
       "type": "Feature",
@@ -91,7 +100,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_29_2026"
     },
     {
-      "id": "entry_7_0",
+      "id": "entry_8_0",
       "date": "July 27, 2026",
       "updated": "2026-07-27T00:00:00-07:00",
       "type": "Feature",
@@ -100,7 +109,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026"
     },
     {
-      "id": "entry_7_1",
+      "id": "entry_8_1",
       "date": "July 27, 2026",
       "updated": "2026-07-27T00:00:00-07:00",
       "type": "Feature",
@@ -109,7 +118,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026"
     },
     {
-      "id": "entry_7_2",
+      "id": "entry_8_2",
       "date": "July 27, 2026",
       "updated": "2026-07-27T00:00:00-07:00",
       "type": "Feature",
@@ -118,7 +127,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026"
     },
     {
-      "id": "entry_7_3",
+      "id": "entry_8_3",
       "date": "July 27, 2026",
       "updated": "2026-07-27T00:00:00-07:00",
       "type": "Change",
@@ -127,7 +136,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026"
     },
     {
-      "id": "entry_7_4",
+      "id": "entry_8_4",
       "date": "July 27, 2026",
       "updated": "2026-07-27T00:00:00-07:00",
       "type": "Feature",
@@ -136,7 +145,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_27_2026"
     },
     {
-      "id": "entry_8_0",
+      "id": "entry_9_0",
       "date": "July 23, 2026",
       "updated": "2026-07-23T00:00:00-07:00",
       "type": "Change",
@@ -145,7 +154,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026"
     },
     {
-      "id": "entry_9_0",
+      "id": "entry_10_0",
       "date": "July 20, 2026",
       "updated": "2026-07-20T00:00:00-07:00",
       "type": "Issue",
@@ -154,7 +163,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026"
     },
     {
-      "id": "entry_9_1",
+      "id": "entry_10_1",
       "date": "July 20, 2026",
       "updated": "2026-07-20T00:00:00-07:00",
       "type": "Feature",
@@ -163,7 +172,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_20_2026"
     },
     {
-      "id": "entry_10_0",
+      "id": "entry_11_0",
       "date": "July 15, 2026",
       "updated": "2026-07-15T00:00:00-07:00",
       "type": "Feature",
@@ -172,7 +181,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_15_2026"
     },
     {
-      "id": "entry_11_0",
+      "id": "entry_12_0",
       "date": "July 14, 2026",
       "updated": "2026-07-14T00:00:00-07:00",
       "type": "Feature",
@@ -181,7 +190,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026"
     },
     {
-      "id": "entry_11_1",
+      "id": "entry_12_1",
       "date": "July 14, 2026",
       "updated": "2026-07-14T00:00:00-07:00",
       "type": "Announcement",
@@ -190,7 +199,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_14_2026"
     },
     {
-      "id": "entry_12_0",
+      "id": "entry_13_0",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -199,7 +208,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_12_1",
+      "id": "entry_13_1",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -208,7 +217,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_12_2",
+      "id": "entry_13_2",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Security",
@@ -217,7 +226,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_12_3",
+      "id": "entry_13_3",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -226,7 +235,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_12_4",
+      "id": "entry_13_4",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -235,7 +244,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_12_5",
+      "id": "entry_13_5",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -244,7 +253,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_12_6",
+      "id": "entry_13_6",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -253,7 +262,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_12_7",
+      "id": "entry_13_7",
       "date": "July 13, 2026",
       "updated": "2026-07-13T00:00:00-07:00",
       "type": "Feature",
@@ -262,7 +271,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     },
     {
-      "id": "entry_13_0",
+      "id": "entry_14_0",
       "date": "July 09, 2026",
       "updated": "2026-07-09T00:00:00-07:00",
       "type": "Feature",
@@ -271,7 +280,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
     },
     {
-      "id": "entry_13_1",
+      "id": "entry_14_1",
       "date": "July 09, 2026",
       "updated": "2026-07-09T00:00:00-07:00",
       "type": "Feature",
@@ -280,7 +289,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
     },
     {
-      "id": "entry_13_2",
+      "id": "entry_14_2",
       "date": "July 09, 2026",
       "updated": "2026-07-09T00:00:00-07:00",
       "type": "Feature",
@@ -289,7 +298,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_09_2026"
     },
     {
-      "id": "entry_14_0",
+      "id": "entry_15_0",
       "date": "July 08, 2026",
       "updated": "2026-07-08T00:00:00-07:00",
       "type": "Change",
@@ -298,7 +307,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026"
     },
     {
-      "id": "entry_14_1",
+      "id": "entry_15_1",
       "date": "July 08, 2026",
       "updated": "2026-07-08T00:00:00-07:00",
       "type": "Feature",
@@ -307,7 +316,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_08_2026"
     },
     {
-      "id": "entry_15_0",
+      "id": "entry_16_0",
       "date": "July 06, 2026",
       "updated": "2026-07-06T00:00:00-07:00",
       "type": "Change",
@@ -316,7 +325,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026"
     },
     {
-      "id": "entry_16_0",
+      "id": "entry_17_0",
       "date": "July 01, 2026",
       "updated": "2026-07-01T00:00:00-07:00",
       "type": "Feature",
@@ -325,7 +334,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026"
     },
     {
-      "id": "entry_17_0",
+      "id": "entry_18_0",
       "date": "June 30, 2026",
       "updated": "2026-06-30T00:00:00-07:00",
       "type": "Feature",
@@ -334,7 +343,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026"
     },
     {
-      "id": "entry_17_1",
+      "id": "entry_18_1",
       "date": "June 30, 2026",
       "updated": "2026-06-30T00:00:00-07:00",
       "type": "Change",
@@ -343,7 +352,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_30_2026"
     },
     {
-      "id": "entry_18_0",
+      "id": "entry_19_0",
       "date": "June 29, 2026",
       "updated": "2026-06-29T00:00:00-07:00",
       "type": "Change",
@@ -352,7 +361,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026"
     },
     {
-      "id": "entry_18_1",
+      "id": "entry_19_1",
       "date": "June 29, 2026",
       "updated": "2026-06-29T00:00:00-07:00",
       "type": "Feature",
@@ -361,7 +370,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_29_2026"
     },
     {
-      "id": "entry_19_0",
+      "id": "entry_20_0",
       "date": "June 25, 2026",
       "updated": "2026-06-25T00:00:00-07:00",
       "type": "Feature",
@@ -370,7 +379,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026"
     },
     {
-      "id": "entry_19_1",
+      "id": "entry_20_1",
       "date": "June 25, 2026",
       "updated": "2026-06-25T00:00:00-07:00",
       "type": "Change",
@@ -379,7 +388,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026"
     },
     {
-      "id": "entry_19_2",
+      "id": "entry_20_2",
       "date": "June 25, 2026",
       "updated": "2026-06-25T00:00:00-07:00",
       "type": "Feature",
@@ -388,7 +397,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_25_2026"
     },
     {
-      "id": "entry_20_0",
+      "id": "entry_21_0",
       "date": "June 23, 2026",
       "updated": "2026-06-23T00:00:00-07:00",
       "type": "Feature",
@@ -397,7 +406,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026"
     },
     {
-      "id": "entry_20_1",
+      "id": "entry_21_1",
       "date": "June 23, 2026",
       "updated": "2026-06-23T00:00:00-07:00",
       "type": "Feature",
@@ -406,7 +415,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_23_2026"
     },
     {
-      "id": "entry_21_0",
+      "id": "entry_22_0",
       "date": "June 22, 2026",
       "updated": "2026-06-22T00:00:00-07:00",
       "type": "Feature",
@@ -415,7 +424,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_22_2026"
     },
     {
-      "id": "entry_22_0",
+      "id": "entry_23_0",
       "date": "June 17, 2026",
       "updated": "2026-06-17T00:00:00-07:00",
       "type": "Feature",
@@ -424,7 +433,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026"
     },
     {
-      "id": "entry_23_0",
+      "id": "entry_24_0",
       "date": "June 16, 2026",
       "updated": "2026-06-16T00:00:00-07:00",
       "type": "Announcement",
@@ -433,7 +442,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026"
     },
     {
-      "id": "entry_24_0",
+      "id": "entry_25_0",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Feature",
@@ -442,7 +451,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_24_1",
+      "id": "entry_25_1",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Issue",
@@ -451,7 +460,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_24_2",
+      "id": "entry_25_2",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Feature",
@@ -460,7 +469,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_24_3",
+      "id": "entry_25_3",
       "date": "June 15, 2026",
       "updated": "2026-06-15T00:00:00-07:00",
       "type": "Feature",
@@ -469,7 +478,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     },
     {
-      "id": "entry_25_0",
+      "id": "entry_26_0",
       "date": "June 12, 2026",
       "updated": "2026-06-12T00:00:00-07:00",
       "type": "Feature",
@@ -478,7 +487,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026"
     },
     {
-      "id": "entry_25_1",
+      "id": "entry_26_1",
       "date": "June 12, 2026",
       "updated": "2026-06-12T00:00:00-07:00",
       "type": "Feature",
@@ -487,7 +496,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_12_2026"
     },
     {
-      "id": "entry_26_0",
+      "id": "entry_27_0",
       "date": "June 11, 2026",
       "updated": "2026-06-11T00:00:00-07:00",
       "type": "Feature",
@@ -496,7 +505,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
     },
     {
-      "id": "entry_26_1",
+      "id": "entry_27_1",
       "date": "June 11, 2026",
       "updated": "2026-06-11T00:00:00-07:00",
       "type": "Feature",
@@ -505,7 +514,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
     },
     {
-      "id": "entry_26_2",
+      "id": "entry_27_2",
       "date": "June 11, 2026",
       "updated": "2026-06-11T00:00:00-07:00",
       "type": "Feature",
@@ -514,7 +523,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_11_2026"
     },
     {
-      "id": "entry_27_0",
+      "id": "entry_28_0",
       "date": "June 10, 2026",
       "updated": "2026-06-10T00:00:00-07:00",
       "type": "Feature",
@@ -523,7 +532,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026"
     },
     {
-      "id": "entry_28_0",
+      "id": "entry_29_0",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -532,7 +541,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_28_1",
+      "id": "entry_29_1",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -541,7 +550,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_28_2",
+      "id": "entry_29_2",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -550,7 +559,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_28_3",
+      "id": "entry_29_3",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -559,7 +568,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_28_4",
+      "id": "entry_29_4",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
@@ -568,24 +577,15 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
     },
     {
-      "id": "entry_28_5",
+      "id": "entry_29_5",
       "date": "June 08, 2026",
       "updated": "2026-06-08T00:00:00-07:00",
       "type": "Feature",
       "description_html": "<p>You can manage and limit the costs associated with BigQuery generative AI\nfunctions by configuring <a href=\"https://docs.cloud.google.com/bigquery/docs/control-genai-costs\">daily token quotas</a>.\nToken-based cost management for BigQuery generative AI functions is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>",
       "description_text": "You can manage and limit the costs associated with BigQuery generative AI\nfunctions by configuring daily token quotas.\nToken-based cost management for BigQuery generative AI functions is\ngenerally available\n(GA).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_08_2026"
-    },
-    {
-      "id": "entry_29_0",
-      "date": "June 05, 2026",
-      "updated": "2026-06-05T00:00:00-07:00",
-      "type": "Feature",
-      "description_html": "<p><em>Cross-cloud Lakehouse</em> now supports AWS Glue as a remote catalog\nprovider (Preview). You can configure federated catalogs to query data stored in\nAWS Glue directly from Google Cloud using BigQuery or\nApache Spark without migrating data or building complex ETL pipelines.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/set-up-cross-cloud-lakehouse-aws-glue\">Set up cross-cloud Lakehouse for\nAWS Glue</a>.</p>",
-      "description_text": "Cross-cloud Lakehouse now supports AWS Glue as a remote catalog\nprovider (Preview). You can configure federated catalogs to query data stored in\nAWS Glue directly from Google Cloud using BigQuery or\nApache Spark without migrating data or building complex ETL pipelines.\nFor more information, see Set up cross-cloud Lakehouse for\nAWS Glue.",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_05_2026"
     }
   ],
-  "last_updated": 1787135245.1320188,
+  "last_updated": 1787138610.180102,
   "status": "success"
 }
