@@ -4,13 +4,22 @@
       "id": "entry_0_0",
       "date": "August 20, 2026",
       "updated": "2026-08-20T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>BigQuery supports the following table-valued functions in the query editor and\nas part of\n<a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#bigquery-ml-support\">conversational analytics</a>\nto help you analyze your time series data:</p>\n<ul>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-trend\"><code>ML.TREND</code></a>:\nidentify the directional trajectory of your data.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-seasonality\"><code>ML.SEASONALITY</code></a>:\nidentify repeating patterns in your data.</li>\n<li><a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-detect-change-points\"><code>ML.DETECT_CHANGE_POINTS</code></a>:\nidentify intervals where structural shifts occur in your data.</li>\n</ul>\n<p>These functions are in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>",
+      "description_text": "BigQuery supports the following table-valued functions in the query editor and\nas part of\nconversational analytics\nto help you analyze your time series data:\n\nML.TREND:\nidentify the directional trajectory of your data.\nML.SEASONALITY:\nidentify repeating patterns in your data.\nML.DETECT_CHANGE_POINTS:\nidentify intervals where structural shifts occur in your data.\n\nThese functions are in\npreview.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "August 20, 2026",
+      "updated": "2026-08-20T00:00:00-07:00",
       "type": "Deprecated",
       "description_html": "<p>Starting April 26, 2027, core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery\nGraph</a> will be restricted to the <a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery\nEnterprise and Enterprise Plus editions</a>.\nConsequently, we are deprecating support for Standard edition and on-demand\nbilling for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>",
       "description_text": "Starting April 26, 2027, core graph processing for BigQuery\nGraph will be restricted to the BigQuery\nEnterprise and Enterprise Plus editions.\nConsequently, we are deprecating support for Standard edition and on-demand\nbilling for core graph processing.\nGraph measures will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026"
     },
     {
-      "id": "entry_0_1",
+      "id": "entry_0_2",
       "date": "August 20, 2026",
       "updated": "2026-08-20T00:00:00-07:00",
       "type": "Feature",
@@ -550,6 +559,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_10_2026"
     }
   ],
-  "last_updated": 1787268280.544791,
+  "last_updated": 1787274836.9341834,
   "status": "success"
 }
