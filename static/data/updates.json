@@ -10,6 +10,15 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026"
     },
     {
+      "id": "entry_0_1",
+      "date": "August 26, 2026",
+      "updated": "2026-08-26T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/user-defined-functions-python#use_logging\">view real-time logs</a>\nfor your Python UDFs in Cloud Logging. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+      "description_text": "You can now\nview real-time logs\nfor your Python UDFs in Cloud Logging. This feature is\ngenerally available.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_26_2026"
+    },
+    {
       "id": "entry_1_0",
       "date": "August 25, 2026",
       "updated": "2026-08-25T00:00:00-07:00",
@@ -532,6 +541,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_15_2026"
     }
   ],
-  "last_updated": 1787770887.9947543,
+  "last_updated": 1787784279.442521,
   "status": "success"
 }
