@@ -10,6 +10,24 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026"
     },
     {
+      "id": "entry_0_1",
+      "date": "August 27, 2026",
+      "updated": "2026-08-27T00:00:00-07:00",
+      "type": "Announcement",
+      "description_html": "<p>Core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a>\nrequires an Enterprise or Enterprise Plus edition reservation. Existing\nallowlisted users can continue to use Standard edition or on-demand billing\nuntil April 26, 2027, after which these billing models will no longer be\nsupported for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>",
+      "description_text": "Core graph processing for BigQuery Graph\nrequires an Enterprise or Enterprise Plus edition reservation. Existing\nallowlisted users can continue to use Standard edition or on-demand billing\nuntil April 26, 2027, after which these billing models will no longer be\nsupported for core graph processing.\nGraph measures will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026"
+    },
+    {
+      "id": "entry_0_2",
+      "date": "August 27, 2026",
+      "updated": "2026-08-27T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>You can now train models using XGBoost version 2.1 by using the\n<code>XGBOOST_VERSION</code> option. BigQuery uses the XGBoost 3.1.0 library to load and\nmake predictions on XGBoost models. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+      "description_text": "You can now train models using XGBoost version 2.1 by using the\nXGBOOST_VERSION option. BigQuery uses the XGBoost 3.1.0 library to load and\nmake predictions on XGBoost models. This feature is\ngenerally available.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_27_2026"
+    },
+    {
       "id": "entry_1_0",
       "date": "August 26, 2026",
       "updated": "2026-08-26T00:00:00-07:00",
@@ -59,8 +77,8 @@
       "date": "August 20, 2026",
       "updated": "2026-08-20T00:00:00-07:00",
       "type": "Deprecated",
-      "description_html": "<p>Starting April 26, 2027, core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery\nGraph</a> will be restricted to the <a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery\nEnterprise and Enterprise Plus editions</a>.\nConsequently, we are deprecating support for Standard edition and on-demand\nbilling for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>",
-      "description_text": "Starting April 26, 2027, core graph processing for BigQuery\nGraph will be restricted to the BigQuery\nEnterprise and Enterprise Plus editions.\nConsequently, we are deprecating support for Standard edition and on-demand\nbilling for core graph processing.\nGraph measures will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.",
+      "description_html": "<p>Starting April 26, 2027, core graph processing for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery\nGraph</a> will be restricted to the <a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery\nEnterprise and Enterprise Plus editions</a>.\nConsequently, we are deprecating support for Standard edition and on-demand\nbilling for core graph processing.</p>\n<p><a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">Graph measures</a> will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.</p>\n<p>For additional details and enforcement dates regarding Standard edition and\non-demand billing support, see the <a href=\"#August_27_2026\">August 27, 2026</a>\nrelease note.</p>",
+      "description_text": "Starting April 26, 2027, core graph processing for BigQuery\nGraph will be restricted to the BigQuery\nEnterprise and Enterprise Plus editions.\nConsequently, we are deprecating support for Standard edition and on-demand\nbilling for core graph processing.\nGraph measures will remain available in the\nEnterprise and Enterprise Plus editions and for queries run using on-demand\npricing. Measures are not available in Standard edition.\nFor additional details and enforcement dates regarding Standard edition and\non-demand billing support, see the August 27, 2026\nrelease note.",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026"
     },
     {
@@ -514,6 +532,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_16_2026"
     }
   ],
-  "last_updated": 1787879778.1056793,
+  "last_updated": 1787924943.8232923,
   "status": "success"
 }
