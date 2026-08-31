@@ -19,6 +19,15 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026"
     },
     {
+      "id": "entry_0_2",
+      "date": "August 31, 2026",
+      "updated": "2026-08-31T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>You can now create an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/identity-columns\">identity column</a>, sometimes\nreferred to as an auto-incrementing column, on a table. You can use identity\ncolumns to create and\nmaintain primary keys on your tables. When you insert a row into a table\nthat has an identity column, BigQuery generates a unique integer\nvalue for that column. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "description_text": "You can now create an\nidentity column, sometimes\nreferred to as an auto-incrementing column, on a table. You can use identity\ncolumns to create and\nmaintain primary keys on your tables. When you insert a row into a table\nthat has an identity column, BigQuery generates a unique integer\nvalue for that column. This feature is in\nPreview.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_31_2026"
+    },
+    {
       "id": "entry_1_0",
       "date": "August 27, 2026",
       "updated": "2026-08-27T00:00:00-07:00",
@@ -541,6 +550,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#June_17_2026"
     }
   ],
-  "last_updated": 1788198859.520155,
+  "last_updated": 1788215458.1565945,
   "status": "success"
 }
