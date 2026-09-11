@@ -5,8 +5,8 @@
       "date": "September 10, 2026",
       "updated": "2026-09-10T00:00:00-07:00",
       "type": "Feature",
-      "description_html": "<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-causal-effect\">AI.CAUSAL_EFFECT</a>\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "description_text": "You can use the AI.CAUSAL_EFFECT\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in Preview.",
+      "description_html": "<p>Conversational analytics in BigQuery now supports the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-correlation\"><code>ML.CORRELATION</code></a>\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "description_text": "Conversational analytics in BigQuery now supports the ML.CORRELATION\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in Preview.",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026"
     },
     {
@@ -14,8 +14,8 @@
       "date": "September 10, 2026",
       "updated": "2026-09-10T00:00:00-07:00",
       "type": "Feature",
-      "description_html": "<p><a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview#schema-mapping-with-graph\">The Data Engineering Agent now integrates with BigQuery Graph</a>\nto provide additional context between your data source and destination schema,\nand improves schema mapping accuracy for your data engineering pipelines.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "description_text": "The Data Engineering Agent now integrates with BigQuery Graph\nto provide additional context between your data source and destination schema,\nand improves schema mapping accuracy for your data engineering pipelines.\nThis feature is generally available\n(GA).",
+      "description_html": "<p>You can now use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-metrics\"><code>ML.METRICS</code> function</a>\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "description_text": "You can now use the ML.METRICS function\nto compute evaluation metrics for machine learning\nclassification or regression tasks on any table or query that contains actual\nand predicted values. This function lets you evaluate predictions without\nneeding to create or reference a stored model. This feature is in\nPreview.",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026"
     },
     {
@@ -23,8 +23,8 @@
       "date": "September 10, 2026",
       "updated": "2026-09-10T00:00:00-07:00",
       "type": "Feature",
-      "description_html": "<p>Conversational analytics in BigQuery now supports the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-correlation\">ML.CORRELATION</a>\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
-      "description_text": "Conversational analytics in BigQuery now supports the ML.CORRELATION\nfunction to calculate statistical correlations between a target column and one\nor more metric columns in a table. This feature is in Preview.",
+      "description_html": "<p>You can use the <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-causal-effect\"><code>AI.CAUSAL_EFFECT</code></a>\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "description_text": "You can use the AI.CAUSAL_EFFECT\nfunction to quantify the impact of specific interventions on time series data.\nThis feature is in Preview.",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_10_2026"
     },
     {
@@ -550,6 +550,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_01_2026"
     }
   ],
-  "last_updated": 1789083882.4910831,
+  "last_updated": 1789096376.544093,
   "status": "success"
 }
