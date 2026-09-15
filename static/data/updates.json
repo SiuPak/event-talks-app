@@ -4,6 +4,15 @@
       "id": "entry_0_0",
       "date": "September 14, 2026",
       "updated": "2026-09-14T00:00:00-07:00",
+      "type": "Change",
+      "description_html": "<p>An updated version of the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/odbc-jdbc-drivers#current_odbc_driver\">Simba ODBC driver for BigQuery</a>\nis now available.</p>",
+      "description_text": "An updated version of the\nSimba ODBC driver for BigQuery\nis now available.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "September 14, 2026",
+      "updated": "2026-09-14T00:00:00-07:00",
       "type": "Feature",
       "description_html": "<p>Metadata for <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-overview\">BigQuery Graph</a> is\nautomatically ingested and searchable in\n<a href=\"https://docs.cloud.google.com/bigquery/docs/use-knowledge-catalog\">Knowledge Catalog</a>. This feature is\navailable in <a href=\"https://cloud.google.com/products#product-launch-stages\">preview</a>.</p>",
       "description_text": "Metadata for BigQuery Graph is\nautomatically ingested and searchable in\nKnowledge Catalog. This feature is\navailable in preview.",
@@ -559,6 +568,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026"
     }
   ],
-  "last_updated": 1789421550.5173793,
+  "last_updated": 1789431564.8933325,
   "status": "success"
 }
