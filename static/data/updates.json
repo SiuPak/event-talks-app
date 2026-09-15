@@ -19,6 +19,15 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026"
     },
     {
+      "id": "entry_0_2",
+      "date": "September 14, 2026",
+      "updated": "2026-09-14T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>You can now include a <code>WHERE</code> clause inside of an\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate-function-calls\">aggregate function call</a>\nto filter your aggregate function input using a boolean expression.\nThis feature is in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "description_text": "You can now include a WHERE clause inside of an\naggregate function call\nto filter your aggregate function input using a boolean expression.\nThis feature is in\nPreview.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026"
+    },
+    {
       "id": "entry_1_0",
       "date": "September 10, 2026",
       "updated": "2026-09-10T00:00:00-07:00",
@@ -568,6 +577,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_06_2026"
     }
   ],
-  "last_updated": 1789431564.8933325,
+  "last_updated": 1789451528.399604,
   "status": "success"
 }
