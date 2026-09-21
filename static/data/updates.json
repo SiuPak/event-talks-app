@@ -5,6 +5,15 @@
       "date": "September 21, 2026",
       "updated": "2026-09-21T00:00:00-07:00",
       "type": "Feature",
+      "description_html": "<p>The <strong>Query results</strong> pane in the BigQuery Studio query editor lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/multi-statement-queries#view_multi_statement_query_results\">view a short history of recent runs for a query</a>, including\nmulti-statement queries, without having to navigate to the <strong>Job history</strong> tab.\nThis feature is <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "description_text": "The Query results pane in the BigQuery Studio query editor lets you\nview a short history of recent runs for a query, including\nmulti-statement queries, without having to navigate to the Job history tab.\nThis feature is generally available\n(GA).",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "September 21, 2026",
+      "updated": "2026-09-21T00:00:00-07:00",
+      "type": "Feature",
       "description_html": "<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-3.8-flash</code> Gemini model.</p>",
       "description_text": "BigQuery generative AI functions\nnow support the gemini-3.8-flash Gemini model.",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_21_2026"
@@ -550,6 +559,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_13_2026"
     }
   ],
-  "last_updated": 1790023654.3972516,
+  "last_updated": 1790034614.4864595,
   "status": "success"
 }
