@@ -5,6 +5,15 @@
       "date": "September 29, 2026",
       "updated": "2026-09-29T00:00:00-07:00",
       "type": "Feature",
+      "description_html": "<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-key-drivers\"><code>AI.KEY_DRIVERS</code> function</a>\nis now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). You can use the <code>AI.KEY_DRIVERS</code> function to identify segments of data\nthat cause statistically significant changes to a summable metric.</p>",
+      "description_text": "The\nAI.KEY_DRIVERS function\nis now\ngenerally available\n(GA). You can use the AI.KEY_DRIVERS function to identify segments of data\nthat cause statistically significant changes to a summable metric.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "September 29, 2026",
+      "updated": "2026-09-29T00:00:00-07:00",
+      "type": "Feature",
       "description_html": "<p>You can query the <a href=\"https://docs.cloud.google.com/bigquery/docs/information-schema-failover-history\"><code>INFORMATION_SCHEMA.FAILOVER_HISTORY</code>\nview</a> to retrieve a near\nreal-time list of failover events for reservations within an administration\nproject that use <a href=\"https://docs.cloud.google.com/bigquery/docs/managed-disaster-recovery\">managed disaster\nrecovery</a>.</p>\n<p>This feature is now in\n(<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>).</p>",
       "description_text": "You can query the INFORMATION_SCHEMA.FAILOVER_HISTORY\nview to retrieve a near\nreal-time list of failover events for reservations within an administration\nproject that use managed disaster\nrecovery.\nThis feature is now in\n(Preview).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_29_2026"
@@ -487,6 +496,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#July_23_2026"
     }
   ],
-  "last_updated": 1790718915.9802823,
+  "last_updated": 1790730373.2354932,
   "status": "success"
 }
