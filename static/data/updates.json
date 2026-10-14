@@ -10,6 +10,15 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026"
     },
     {
+      "id": "entry_0_1",
+      "date": "October 13, 2026",
+      "updated": "2026-10-13T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-4-argon</code> model. This model is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
+      "description_text": "BigQuery generative AI functions\nnow support the gemini-4-argon model. This model is\ngenerally available.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_13_2026"
+    },
+    {
       "id": "entry_1_0",
       "date": "October 12, 2026",
       "updated": "2026-10-12T00:00:00-07:00",
@@ -496,6 +505,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_18_2026"
     }
   ],
-  "last_updated": 1791927858.8541653,
+  "last_updated": 1791939212.275706,
   "status": "success"
 }
