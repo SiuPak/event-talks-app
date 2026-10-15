@@ -5,12 +5,30 @@
       "date": "October 14, 2026",
       "updated": "2026-10-14T00:00:00-07:00",
       "type": "Feature",
+      "description_html": "<p>The Apache Hive catalog endpoint in the Lakehouse runtime catalog is now\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).\nThis integration lets you use the metastore as a serverless, central metadata\nlayer, enabling seamless data sharing and unified querying across Apache Spark,\nApache Hive, and BigQuery.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/about-spark-hive-metastore\">About the Hive catalog\nendpoint</a> and <a href=\"https://docs.cloud.google.com/lakehouse/docs/use-spark-hive-metastore\">Set up Spark and Hive\nwith the Lakehouse runtime\ncatalog</a>.</p>",
+      "description_text": "The Apache Hive catalog endpoint in the Lakehouse runtime catalog is now\ngenerally available (GA).\nThis integration lets you use the metastore as a serverless, central metadata\nlayer, enabling seamless data sharing and unified querying across Apache Spark,\nApache Hive, and BigQuery.\nFor more information, see About the Hive catalog\nendpoint and Set up Spark and Hive\nwith the Lakehouse runtime\ncatalog.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "October 14, 2026",
+      "updated": "2026-10-14T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>Conversational analytics now lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations#converse_with_a_data_source_using_the_agents_page\">create a conversation</a>\nwith all of the data sources in multiple projects, or create a conversation\nwith a <a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations#datasets\">dataset</a>. These features\nare\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "description_text": "Conversational analytics now lets you\ncreate a conversation\nwith all of the data sources in multiple projects, or create a conversation\nwith a dataset. These features\nare\ngenerally available\n(GA).",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026"
+    },
+    {
+      "id": "entry_0_2",
+      "date": "October 14, 2026",
+      "updated": "2026-10-14T00:00:00-07:00",
+      "type": "Feature",
       "description_html": "<p>You can publish a <a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#publish-agent-gemini-enterprise\">BigQuery Conversational Analytics agent in Gemini\nEnterprise</a>.\nThis feature is now <a href=\"https://cloud.google.com/products/#product-launch-stages\">generally\navailable</a> (GA).</p>",
       "description_text": "You can publish a BigQuery Conversational Analytics agent in Gemini\nEnterprise.\nThis feature is now generally\navailable (GA).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026"
     },
     {
-      "id": "entry_0_1",
+      "id": "entry_0_3",
       "date": "October 14, 2026",
       "updated": "2026-10-14T00:00:00-07:00",
       "type": "Feature",
@@ -514,6 +532,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026"
     }
   ],
-  "last_updated": 1792021377.8446786,
+  "last_updated": 1792034614.0229626,
   "status": "success"
 }
