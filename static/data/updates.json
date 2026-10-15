@@ -14,12 +14,21 @@
       "date": "October 14, 2026",
       "updated": "2026-10-14T00:00:00-07:00",
       "type": "Feature",
+      "description_html": "<p>Metadata migration from Dataproc Metastore to Lakehouse is now <a href=\"https://cloud.google.com/products#product-launch-stages\">generally\navailable</a> (GA). You\ncan perform a one-time backfill migration or dry run to migrate metadata from a\nDataproc Metastore service to an Apache Iceberg REST catalog endpoint or a Hive\ncatalog endpoint using the Google Cloud console, the gcloud CLI, or the REST\nAPI.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/migrate-dataproc-metastore\">Migrate metadata from Dataproc Metastore to\nLakehouse</a>.</p>",
+      "description_text": "Metadata migration from Dataproc Metastore to Lakehouse is now generally\navailable (GA). You\ncan perform a one-time backfill migration or dry run to migrate metadata from a\nDataproc Metastore service to an Apache Iceberg REST catalog endpoint or a Hive\ncatalog endpoint using the Google Cloud console, the gcloud CLI, or the REST\nAPI.\nFor more information, see Migrate metadata from Dataproc Metastore to\nLakehouse.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026"
+    },
+    {
+      "id": "entry_0_2",
+      "date": "October 14, 2026",
+      "updated": "2026-10-14T00:00:00-07:00",
+      "type": "Feature",
       "description_html": "<p>Conversational analytics now lets you\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations#converse_with_a_data_source_using_the_agents_page\">create a conversation</a>\nwith all of the data sources in multiple projects, or create a conversation\nwith a <a href=\"https://docs.cloud.google.com/bigquery/docs/create-conversations#datasets\">dataset</a>. These features\nare\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "description_text": "Conversational analytics now lets you\ncreate a conversation\nwith all of the data sources in multiple projects, or create a conversation\nwith a dataset. These features\nare\ngenerally available\n(GA).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026"
     },
     {
-      "id": "entry_0_2",
+      "id": "entry_0_3",
       "date": "October 14, 2026",
       "updated": "2026-10-14T00:00:00-07:00",
       "type": "Feature",
@@ -28,7 +37,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_14_2026"
     },
     {
-      "id": "entry_0_3",
+      "id": "entry_0_4",
       "date": "October 14, 2026",
       "updated": "2026-10-14T00:00:00-07:00",
       "type": "Feature",
@@ -532,6 +541,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#August_20_2026"
     }
   ],
-  "last_updated": 1792034614.0229626,
+  "last_updated": 1792054417.7625716,
   "status": "success"
 }
