@@ -5,8 +5,35 @@
       "date": "October 27, 2026",
       "updated": "2026-10-27T00:00:00-07:00",
       "type": "Feature",
+      "description_html": "<p>You can manage and version control SQL scripts and notebooks with\n<a href=\"https://docs.cloud.google.com/bigquery/docs/git-repositories\">BigQuery Studio Git repositories</a>,\nwhich provide a streamlined, folder-based integration with remote Git\nrepositories. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "description_text": "You can manage and version control SQL scripts and notebooks with\nBigQuery Studio Git repositories,\nwhich provide a streamlined, folder-based integration with remote Git\nrepositories. This feature is\ngenerally available\n(GA).",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "October 27, 2026",
+      "updated": "2026-10-27T00:00:00-07:00",
+      "type": "Feature",
       "description_html": "<p>The <a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview#google-drive-integration\">Data Engineering Agent now integrates with Google\nDrive</a>,\nletting you provide Google Sheets files, CSV, or JSONL files as input for\nyour data engineering pipelines.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>",
       "description_text": "The Data Engineering Agent now integrates with Google\nDrive,\nletting you provide Google Sheets files, CSV, or JSONL files as input for\nyour data engineering pipelines.\nThis feature is generally available (GA).",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026"
+    },
+    {
+      "id": "entry_0_2",
+      "date": "October 27, 2026",
+      "updated": "2026-10-27T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>You can now use <a href=\"https://docs.cloud.google.com/bigquery/docs/connected-sheets#use-ca-in-connected-sheets\">conversational analytics in Connected Sheets</a>\nto ask questions and analyze your BigQuery data using natural\nlanguage. The Gemini side panel can help you translate your questions into\noptimized SQL queries and execute them, summarize key trends, and\ninsert live, refreshable database objects directly into your workbook.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "description_text": "You can now use conversational analytics in Connected Sheets\nto ask questions and analyze your BigQuery data using natural\nlanguage. The Gemini side panel can help you translate your questions into\noptimized SQL queries and execute them, summarize key trends, and\ninsert live, refreshable database objects directly into your workbook.\nThis feature is generally available\n(GA).",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026"
+    },
+    {
+      "id": "entry_0_3",
+      "date": "October 27, 2026",
+      "updated": "2026-10-27T00:00:00-07:00",
+      "type": "Feature",
+      "description_html": "<p>The\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-count-tokens\"><code>AI.COUNT_TOKENS</code> function</a>,\nwhich estimates the token count of a text string, is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "description_text": "The\nAI.COUNT_TOKENS function,\nwhich estimates the token count of a text string, is\ngenerally available\n(GA).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026"
     },
     {
@@ -487,6 +514,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_01_2026"
     }
   ],
-  "last_updated": 1793128913.8781266,
+  "last_updated": 1793143832.167655,
   "status": "success"
 }
