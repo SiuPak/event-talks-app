@@ -5,12 +5,39 @@
       "date": "November 02, 2026",
       "updated": "2026-11-02T00:00:00-08:00",
       "type": "Feature",
+      "description_html": "<p><em>Lakehouse</em> <a href=\"https://docs.cloud.google.com/lakehouse/docs/about-cross-cloud-data-access#intelligent-caching\">caching</a>\nfor cross-cloud data access is\n<a href=\"https://cloud.google.com/products/#product-launch-stages\">generally available</a>\n(GA). Cross-cloud caching is disabled by default. You can opt in to caching on\na Lakehouse federated catalog or a BigQuery cross-cloud connection to\ncache remote files in your Google Cloud region. This helps reduce\ncross-cloud egress costs and accelerate subsequent queries.</p>\n<p>For more information, see <a href=\"https://docs.cloud.google.com/lakehouse/docs/about-cross-cloud-data-access#intelligent-caching\">About cross-cloud data\naccess</a> and\n<a href=\"https://docs.cloud.google.com/lakehouse/docs/query-remote-data\">Query remote data</a>.</p>",
+      "description_text": "Lakehouse caching\nfor cross-cloud data access is\ngenerally available\n(GA). Cross-cloud caching is disabled by default. You can opt in to caching on\na Lakehouse federated catalog or a BigQuery cross-cloud connection to\ncache remote files in your Google Cloud region. This helps reduce\ncross-cloud egress costs and accelerate subsequent queries.\nFor more information, see About cross-cloud data\naccess and\nQuery remote data.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "November 02, 2026",
+      "updated": "2026-11-02T00:00:00-08:00",
+      "type": "Feature",
       "description_html": "<p>You can now\n<a href=\"https://docs.cloud.google.com/bigquery/docs/create-data-agents#monitor_agents_and_conversations\">monitor</a>\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "description_text": "You can now\nmonitor\nthe performance, adoption, latency, and costs of your data agents and their\nconversations by using Google Cloud Observability in BigQuery. This feature is\ngenerally available\n(GA).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026"
     },
     {
-      "id": "entry_0_1",
+      "id": "entry_0_2",
+      "date": "November 02, 2026",
+      "updated": "2026-11-02T00:00:00-08:00",
+      "type": "Feature",
+      "description_html": "<p>You can use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-parse-document\"><code>AI.PARSE_DOCUMENT</code> function</a>\nto extract layout elements such as titles, headings, paragraphs, lists, tables,\nand images by using the Document AI layout parser to convert unstructured\ndocuments into structured <code>JSON</code> data.</p>\n<p>This function is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "description_text": "You can use the\nAI.PARSE_DOCUMENT function\nto extract layout elements such as titles, headings, paragraphs, lists, tables,\nand images by using the Document AI layout parser to convert unstructured\ndocuments into structured JSON data.\nThis function is\ngenerally available\n(GA).",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026"
+    },
+    {
+      "id": "entry_0_3",
+      "date": "November 02, 2026",
+      "updated": "2026-11-02T00:00:00-08:00",
+      "type": "Feature",
+      "description_html": "<p>The <a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/security_functions#secure_context\"><code>SECURE_CONTEXT</code> function</a>\nis now available in <a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.\n<code>SECURE_CONTEXT</code> returns the value of a request-scoped secure context parameter\nprovided at query runtime, allowing logical views to dynamically filter and\nevaluate data based on context variables such as user attributes, department\nIDs, or tenant identifiers.</p>",
+      "description_text": "The SECURE_CONTEXT function\nis now available in Preview.\nSECURE_CONTEXT returns the value of a request-scoped secure context parameter\nprovided at query runtime, allowing logical views to dynamically filter and\nevaluate data based on context variables such as user attributes, department\nIDs, or tenant identifiers.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_02_2026"
+    },
+    {
+      "id": "entry_0_4",
       "date": "November 02, 2026",
       "updated": "2026-11-02T00:00:00-08:00",
       "type": "Feature",
@@ -523,6 +550,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_03_2026"
     }
   ],
-  "last_updated": 1793666036.4906092,
+  "last_updated": 1793691353.8601568,
   "status": "success"
 }
