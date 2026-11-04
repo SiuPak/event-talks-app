@@ -68,21 +68,12 @@
       "date": "October 27, 2026",
       "updated": "2026-10-27T00:00:00-07:00",
       "type": "Feature",
-      "description_html": "<p>You can manage and version control SQL scripts and notebooks with\n<a href=\"https://docs.cloud.google.com/bigquery/docs/git-repositories\">BigQuery Studio Git repositories</a>,\nwhich provide a streamlined, folder-based integration with remote Git\nrepositories. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
-      "description_text": "You can manage and version control SQL scripts and notebooks with\nBigQuery Studio Git repositories,\nwhich provide a streamlined, folder-based integration with remote Git\nrepositories. This feature is\ngenerally available\n(GA).",
-      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026"
-    },
-    {
-      "id": "entry_3_1",
-      "date": "October 27, 2026",
-      "updated": "2026-10-27T00:00:00-07:00",
-      "type": "Feature",
       "description_html": "<p>The <a href=\"https://docs.cloud.google.com/gemini/data-agents/data-engineering-agent/agent-overview#google-drive-integration\">Data Engineering Agent now integrates with Google\nDrive</a>,\nletting you provide Google Sheets files, CSV, or JSONL files as input for\nyour data engineering pipelines.</p>\n<p>This feature is <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a> (GA).</p>",
       "description_text": "The Data Engineering Agent now integrates with Google\nDrive,\nletting you provide Google Sheets files, CSV, or JSONL files as input for\nyour data engineering pipelines.\nThis feature is generally available (GA).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026"
     },
     {
-      "id": "entry_3_2",
+      "id": "entry_3_1",
       "date": "October 27, 2026",
       "updated": "2026-10-27T00:00:00-07:00",
       "type": "Feature",
@@ -91,7 +82,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026"
     },
     {
-      "id": "entry_3_3",
+      "id": "entry_3_2",
       "date": "October 27, 2026",
       "updated": "2026-10-27T00:00:00-07:00",
       "type": "Feature",
@@ -550,6 +541,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_08_2026"
     }
   ],
-  "last_updated": 1793741425.0199225,
+  "last_updated": 1793757278.297548,
   "status": "success"
 }
