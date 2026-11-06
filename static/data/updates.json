@@ -4,6 +4,15 @@
       "id": "entry_0_0",
       "date": "November 05, 2026",
       "updated": "2026-11-05T00:00:00-08:00",
+      "type": "Change",
+      "description_html": "<p>The BigQuery <strong>Metadata curation</strong> console page has been removed. You can now\nuse Knowledge Catalog to schedule <a href=\"https://docs.cloud.google.com/knowledge-catalog/docs/cloud-storage-discovery\">Cloud Storage discovery scans</a>,\nmanage <a href=\"https://docs.cloud.google.com/knowledge-catalog/docs/data-profiling-overview\">data profiling</a>\nand <a href=\"https://docs.cloud.google.com/knowledge-catalog/docs/use-auto-data-quality#console\">data quality</a>,\nand perform related data governance tasks.</p>",
+      "description_text": "The BigQuery Metadata curation console page has been removed. You can now\nuse Knowledge Catalog to schedule Cloud Storage discovery scans,\nmanage data profiling\nand data quality,\nand perform related data governance tasks.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_05_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "November 05, 2026",
+      "updated": "2026-11-05T00:00:00-08:00",
       "type": "Feature",
       "description_html": "<p><a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics\">Conversational analytics in BigQuery</a>\nis now available in the <code>asia-northeast1</code> (Tokyo) location. For more\ninformation, see <a href=\"https://docs.cloud.google.com/bigquery/docs/conversational-analytics#locations\">Locations</a>.</p>",
       "description_text": "Conversational analytics in BigQuery\nis now available in the asia-northeast1 (Tokyo) location. For more\ninformation, see Locations.",
@@ -550,6 +559,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_09_2026"
     }
   ],
-  "last_updated": 1793907145.9562204,
+  "last_updated": 1793925991.4395387,
   "status": "success"
 }
