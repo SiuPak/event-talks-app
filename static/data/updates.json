@@ -5,12 +5,30 @@
       "date": "November 09, 2026",
       "updated": "2026-11-09T00:00:00-08:00",
       "type": "Feature",
+      "description_html": "<p>To support your FinOps practices, you can now opt in to\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-monitoring#reservation_cost_attribution\">compute cost attribution</a>\nin BigQuery editions. This feature attributes billed compute charges directly to\nthe query projects that use your administration project's reservation capacity.\nAllocating costs based on actual commitment and autoscaling slot usage lets you\naccurately track project-level costs and manage internal chargebacks. This\nfeature is available in\n<a href=\"https://cloud.google.com/products#product-launch-stages\">Preview</a>.</p>",
+      "description_text": "To support your FinOps practices, you can now opt in to\ncompute cost attribution\nin BigQuery editions. This feature attributes billed compute charges directly to\nthe query projects that use your administration project's reservation capacity.\nAllocating costs based on actual commitment and autoscaling slot usage lets you\naccurately track project-level costs and manage internal chargebacks. This\nfeature is available in\nPreview.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "November 09, 2026",
+      "updated": "2026-11-09T00:00:00-08:00",
+      "type": "Feature",
+      "description_html": "<p>Query performance troubleshooting and job and system performance comparison in\nthe BigQuery jobs explorer are <a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). For more information, see <a href=\"https://docs.cloud.google.com/bigquery/docs/admin-jobs-explorer#get-job-details\">Troubleshoot job performance</a>\nand <a href=\"https://docs.cloud.google.com/bigquery/docs/admin-jobs-explorer#compare-jobs\">Diagnose performance regressions by comparing jobs and systems</a>.</p>",
+      "description_text": "Query performance troubleshooting and job and system performance comparison in\nthe BigQuery jobs explorer are generally available\n(GA). For more information, see Troubleshoot job performance\nand Diagnose performance regressions by comparing jobs and systems.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026"
+    },
+    {
+      "id": "entry_0_2",
+      "date": "November 09, 2026",
+      "updated": "2026-11-09T00:00:00-08:00",
+      "type": "Feature",
       "description_html": "<p>When you <a href=\"https://docs.cloud.google.com/bigquery/docs/create-pipelines\">create</a> or\n<a href=\"https://docs.cloud.google.com/bigquery/docs/schedule-pipelines\">schedule</a>\na pipeline, you can specify the maximum number of\nconcurrently executed pipeline tasks. This feature is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "description_text": "When you create or\nschedule\na pipeline, you can specify the maximum number of\nconcurrently executed pipeline tasks. This feature is\ngenerally available\n(GA).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_09_2026"
     },
     {
-      "id": "entry_0_1",
+      "id": "entry_0_3",
       "date": "November 09, 2026",
       "updated": "2026-11-09T00:00:00-08:00",
       "type": "Feature",
@@ -613,6 +631,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_14_2026"
     }
   ],
-  "last_updated": 1794255959.4988613,
+  "last_updated": 1794280288.9479496,
   "status": "success"
 }
