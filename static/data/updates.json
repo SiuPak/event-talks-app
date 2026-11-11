@@ -5,6 +5,15 @@
       "date": "November 10, 2026",
       "updated": "2026-11-10T00:00:00-08:00",
       "type": "Feature",
+      "description_html": "<p>You can use <a href=\"https://docs.cloud.google.com/bigquery/docs/graph-measures\">graph measures</a>\nto lock an aggregation to a key in order to perform\ncomplex aggregations without overcounting.\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/data-types#measure_type\">Measure expressions</a>\ncan include the following:</p>\n<ul>\n<li>Aggregate function calls</li>\n<li>Expressions within aggregate functions</li>\n<li>Conditional logic within aggregate functions</li>\n<li>Conditional distinct counting</li>\n<li>Scalar operations and expressions outside of aggregate functions</li>\n<li>Combinations of measures wrapped in the <code>AGG</code> function</li>\n</ul>\n<p>To query measures, you transform\nyour graph into a flattened table by using the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/graph-sql-queries#graph_expand\"><code>GRAPH_EXPAND</code> TVF</a>,\nand then query measures in that table with the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/aggregate_functions#agg\"><code>AGG</code> function</a>.\nThe <code>GRAPH_EXPAND</code> function now supports multiple fact tables. To view the\noutput schema of the <code>GRAPH_EXPAND</code> function, use the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/reference/system-procedures#bqshow_graph_expand_schema\"><code>BQ.SHOW_GRAPH_EXPAND_SCHEMA</code> system procedure</a>.</p>\n<p>You can define\n<a href=\"https://docs.cloud.google.com/bigquery/docs/graph-schema-overview#specify_options\">extensions</a>\nin the <code>OPTIONS</code> clause of the labels and properties in your graphs, which are\nstring pairs that represent custom metadata for natural language querying.</p>\n<p>Measures and graphs are supported in Data Studio through the\n<a href=\"https://docs.cloud.google.com/data-studio/connect-to-google-bigquery\">BigQuery connector</a>.\nMeasures and graphs are also automatically cataloged in Knowledge Catalog, which\nmakes them searchable by natural language or domain synonyms.</p>\n<p>These features are\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
+      "description_text": "You can use graph measures\nto lock an aggregation to a key in order to perform\ncomplex aggregations without overcounting.\nMeasure expressions\ncan include the following:\n\nAggregate function calls\nExpressions within aggregate functions\nConditional logic within aggregate functions\nConditional distinct counting\nScalar operations and expressions outside of aggregate functions\nCombinations of measures wrapped in the AGG function\n\nTo query measures, you transform\nyour graph into a flattened table by using the\nGRAPH_EXPAND TVF,\nand then query measures in that table with the\nAGG function.\nThe GRAPH_EXPAND function now supports multiple fact tables. To view the\noutput schema of the GRAPH_EXPAND function, use the\nBQ.SHOW_GRAPH_EXPAND_SCHEMA system procedure.\nYou can define\nextensions\nin the OPTIONS clause of the labels and properties in your graphs, which are\nstring pairs that represent custom metadata for natural language querying.\nMeasures and graphs are supported in Data Studio through the\nBigQuery connector.\nMeasures and graphs are also automatically cataloged in Knowledge Catalog, which\nmakes them searchable by natural language or domain synonyms.\nThese features are\ngenerally available\n(GA).",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026"
+    },
+    {
+      "id": "entry_0_1",
+      "date": "November 10, 2026",
+      "updated": "2026-11-10T00:00:00-08:00",
+      "type": "Feature",
       "description_html": "<p>BigQuery <a href=\"https://docs.cloud.google.com/bigquery/docs/generative-ai-overview#locations\">generative AI functions</a>\nnow support the <code>gemini-4-carbon</code> model. This model is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>.</p>",
       "description_text": "BigQuery generative AI functions\nnow support the gemini-4-carbon model. This model is\ngenerally available.",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_10_2026"
@@ -613,6 +622,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_16_2026"
     }
   ],
-  "last_updated": 1794341651.968256,
+  "last_updated": 1794358882.447954,
   "status": "success"
 }
