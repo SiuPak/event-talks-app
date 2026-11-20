@@ -140,12 +140,21 @@
       "date": "November 11, 2026",
       "updated": "2026-11-11T00:00:00-08:00",
       "type": "Feature",
+      "description_html": "<p>The LangGraph and LangChain BigQuery callback handler for\n<a href=\"https://docs.cloud.google.com/bigquery/docs/bigquery-agent-analytics\">BigQuery agent analytics</a>\nis\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA). This callback handler lets you stream agent execution events from\nLangGraph or LangChain agents directly into BigQuery to analyze\nand evaluate agent interactions.</p>",
+      "description_text": "The LangGraph and LangChain BigQuery callback handler for\nBigQuery agent analytics\nis\ngenerally available\n(GA). This callback handler lets you stream agent execution events from\nLangGraph or LangChain agents directly into BigQuery to analyze\nand evaluate agent interactions.",
+      "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026"
+    },
+    {
+      "id": "entry_5_1",
+      "date": "November 11, 2026",
+      "updated": "2026-11-11T00:00:00-08:00",
+      "type": "Feature",
       "description_html": "<p><a href=\"https://docs.cloud.google.com/bigquery/docs/reservations-workload-management#scheduling-policies\">Project caps (also known as scheduling policies)</a>\nlet you limit maximum slots and concurrency per project within a BigQuery\nreservation. This feature is only supported in the\n<a href=\"https://docs.cloud.google.com/bigquery/docs/editions-intro\">BigQuery Enterprise and Enterprise Plus editions</a>\nand is\n<a href=\"https://cloud.google.com/products#product-launch-stages\">generally available</a>\n(GA).</p>",
       "description_text": "Project caps (also known as scheduling policies)\nlet you limit maximum slots and concurrency per project within a BigQuery\nreservation. This feature is only supported in the\nBigQuery Enterprise and Enterprise Plus editions\nand is\ngenerally available\n(GA).",
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026"
     },
     {
-      "id": "entry_5_1",
+      "id": "entry_5_2",
       "date": "November 11, 2026",
       "updated": "2026-11-11T00:00:00-08:00",
       "type": "Feature",
@@ -154,7 +163,7 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#November_11_2026"
     },
     {
-      "id": "entry_5_2",
+      "id": "entry_5_3",
       "date": "November 11, 2026",
       "updated": "2026-11-11T00:00:00-08:00",
       "type": "Feature",
@@ -676,6 +685,6 @@
       "link": "https://docs.cloud.google.com/bigquery/docs/release-notes#September_24_2026"
     }
   ],
-  "last_updated": 1795130665.4598334,
+  "last_updated": 1795153943.8350785,
   "status": "success"
 }
